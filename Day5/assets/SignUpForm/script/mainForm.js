@@ -9,7 +9,6 @@
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 var utilities = require('utils');
-const { displayCorrect } = require('../../Script/utils');
 
 cc.Class({
     extends: cc.Component,
