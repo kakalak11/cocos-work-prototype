@@ -156,7 +156,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 584.5671475544962
+      "z": 539.5338265577053
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -409,7 +409,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": -105.386,
       "z": 0
     },
     "_scale": {
@@ -1633,6 +1633,15 @@
       "__id__": 7
     },
     "_enabled": true,
+    "leftButton": {
+      "__id__": 11
+    },
+    "rightButton": {
+      "__id__": 25
+    },
+    "jumpButton": {
+      "__id__": 18
+    },
     "buttons": [
       {
         "__id__": 17
@@ -1669,6 +1678,7 @@
     },
     "_move": null,
     "_speed": null,
+    "_jumpHeight": null,
     "_jump": null,
     "_counter": 0,
     "_id": "3fIDgW359HXqMgffxkoZsU"

@@ -12,29 +12,38 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        leftButton: cc.Node,
+        rightButton: cc.Node,
+        jumpButton: cc.Node,
         buttons: [cc.Button],
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     _onStop: function () {
-        cc.log('stop');
-        this.buttons[0].interactable = true;
-        this.buttons[2].interactable = true;
+        this.buttons.forEach(function (element) { element.getComponent('cc.Button').interactable = true });
         return;
     },
 
     _onMove: function () {
-        this.buttons.forEach(function (element) { element.interactable = false });
+        this.buttons.forEach(function (element) { element.getComponent('cc.Button').interactable = false });
         return;
     },
 
-    onLoad() {
-        this.node.on('left', this._onMove, this);
-        this.node.on('right', this._onMove, this);
-        this.node.on('jump', function () { this.buttons[1].interactable = false }, this);
-        this.node.on('jumpDone', function () { this.buttons[1].interactable = true }, this);
+    _addEventListener: function() {
+        this.leftButton.on('click', function() {this.node.emit('move', -2)}, this);
+        this.rightButton.on('click', function() {this.node.emit('move', 2)}, this);
+        this.jumpButton.on('click', function() {this.node.emit('jump', 3)}, this);
+
         this.node.on('stop', this._onStop, this);
+        this.node.on('move', this._onMove, this);
+        this.node.on('jump', this._onMove, this);
+        return 'event added';
+    },
+
+    onLoad() {
+        this._addEventListener();
+        
     },
 
     start() {

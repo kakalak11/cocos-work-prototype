@@ -20,23 +20,29 @@ cc.Class({
     _onKeyDown: function (event) {
         switch (event.keyCode) {
             case cc.macro.KEY.a:
-                this.node.emit('left', -2);
+                this.node.emit('move', -2);
                 break;
             case cc.macro.KEY.d:
-                this.node.emit('right', 2);
+                this.node.emit('move', 2);
                 break;
             case cc.macro.KEY.w:
-                console.log('Press w key');
-                this.node.emit('jump', 2);
+                this.node.emit('jump', 3);
                 break;
         }
     },
 
+    _onMove: function() {
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this._onKeyDown, this);
+    },
+
+    _onStop: function() {
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this._onKeyDown, this);
+    },
+
     onLoad() {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this._onKeyDown, this);
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, function () {
-            this.node.emit('stop');
-        }, this);
+        this.node.on('move', this._onMove, this);
+        this.node.on('stop', this._onStop, this);
     },
 
     start() {
