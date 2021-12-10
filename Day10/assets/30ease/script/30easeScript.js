@@ -19,8 +19,15 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onClick(event, message) {
+        this.object.setPosition(cc.v2(-300, 150));
         eval(`this.object.runAction(cc.moveBy(2, 600, 0).easing(cc.${message}(2)));`);
         cc.log(message)
+    },
+
+    onBound() {
+        this.object.setPosition(cc.v2(-300, 150));
+        let spawn = cc.spawn(cc.moveBy(2, 600, 0), cc.sequence(cc.moveBy(1, 0, 100), cc.moveBy(1, 0, -100)).easing(cc.easeBounceInOut(2)))
+        this.object.runAction(spawn);
     },
 
     onReset() {
