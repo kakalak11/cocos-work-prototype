@@ -3,78 +3,72 @@ cc.Class({
 
     properties: {
         player: cc.Node,
-        _move: null,
-        _speed: null,
-        _jumpHeight: null,
-        _jump: null,
-        _counter: 0,
+        tweenButton: cc.Node,
+        _onTween: false,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    _jumping: function (frame) {
-        if (!this._jump) return;
-        this._counter += frame * 60;
-
-        if (this._counter < 30) {
-            // this.player.y += this._jumpHeight;
-            // this.player.angle += 360 / 2 / 30;
-        }
-
-        if (this._counter > 30) {
-            // this.player.y -= this._jumpHeight;
-            // this.player.angle += 360 / 2 / 30;
-        }
-
-        if (this._counter > 60) {
-            // this.player.angle = 360;
-            // this.player.y = -105;
-            this._counter = 0;
-            this._jump = false;
-            this.node.emit('stop');
-        }
-    },
-
-    _moving: function (frame) {
-        if (!this._move) return;
-        this._counter += frame * 60;
-
-        if (this._counter > 60) {
-            this._counter = 0;
-            this.node.emit('stop');
-        }
-
-        // this.player.x += this._speed;
-    },
-
-    _tweenMove() {
-
-    },
-
     onLoad() {
+        this.tweenButton.on('click', () => {
+            if (!this._onTween) {
+                this._onTween = true;
+                this.tweenButton.children[0].children[0].getComponent('cc.Label').string = 'Tween: ON';
+                return;
+            }
+            this.tweenButton.children[0].children[0].getComponent('cc.Label').string = 'Tween: OFF';
+            this._onTween = false;
+        }, this);
+
         this.node.on('move', function (value) {
-            this._move = true;
-            this._speed = value;
-            this.player.runAction(cc.moveBy(1, cc.v2(100 * value, 0)).easing(cc.easeIn(2.0)));
-        }, this);
-        this.node.on('jump', function (value) {
-            this._jump = true;
-            this._jumpHeight = value;
-            this.player.runAction(cc.moveBy(0.5, cc.v2(0, 100)), cc.rotateBy(1, 360));
-        }, this);
-        this.node.on('stop', function () {
-            this._jump = false;
-            this._move = false;
+            cc.log(this._onTween);
+
+            if (!this._onTween) {
+                this.player.runAction(cc.sequence(
+                    cc.moveBy(1, 200 * value, 0).easing(cc.easeCubicActionInOut(1)),
+                    cc.callFunc(() => this.node.emit('stop')),
+                ));
+                return;
+            }
+
+            cc.tween(this.player)
+                .by(1, { position: cc.v2(200 * value, 0) }, { easing: 'cubicInOut' })
+                .call(() => this.node.emit('stop'))
+                .start()
         }, this);
 
+        this.node.on('jump', function () {
+
+            if (!this._onTween) {
+                this.player.runAction(cc.spawn(
+                    cc.sequence(
+                        cc.moveBy(0.5, 0, 200).easing(cc.easeCubicActionOut(0.5)),
+                        cc.moveBy(0.5, 0, -200).easing(cc.easeCubicActionIn(0.5)),
+                        cc.callFunc(() => this.node.emit('stop')),
+                    ),
+                    cc.rotateBy(1, 360),
+
+                ));
+                return;
+            }
+            let t = cc.tween;
+            t(this.player)
+                .parallel(
+                    t().by(0.5, { position: cc.v2(0, 200) }, { easing: 'cubicOut' }),
+                    t().by(0.5, { angle: -180 })
+                )
+                .parallel(
+                    t().by(0.5, { position: cc.v2(0, -200) }, { easing: 'cubicIn' }),
+                    t().by(0.5, { angle: -180 })
+                )
+                .call(() => this.node.emit('stop'))
+                .start()
+        }, this);
     },
 
-    start() {
-
-    },
+    start() { },
 
     update(dt) {
-        this._moving(dt);
-        this._jumping(dt);
+
     },
 });

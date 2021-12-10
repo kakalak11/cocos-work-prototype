@@ -31,9 +31,9 @@ cc.Class({
     },
 
     _addEventListener: function() {
-        this.leftButton.on('click', function() {this.node.emit('move', -2)}, this);
-        this.rightButton.on('click', function() {this.node.emit('move', 2)}, this);
-        this.jumpButton.on('click', function() {this.node.emit('jump', 3)}, this);
+        this.leftButton.on('click', function() {this.node.emit('move', -1)}, this);
+        this.rightButton.on('click', function() {this.node.emit('move', 1)}, this);
+        this.jumpButton.on('click', function() {this.node.emit('jump')}, this);
 
         this.node.on('stop', this._onStop, this);
         this.node.on('move', this._onMove, this);

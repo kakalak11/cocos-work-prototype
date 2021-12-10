@@ -20,13 +20,13 @@ cc.Class({
     _onKeyDown: function (event) {
         switch (event.keyCode) {
             case cc.macro.KEY.a:
-                this.node.emit('move', -2);
+                this.node.emit('move', -1);
                 break;
             case cc.macro.KEY.d:
-                this.node.emit('move', 2);
+                this.node.emit('move', 1);
                 break;
             case cc.macro.KEY.w:
-                this.node.emit('jump', 3);
+                this.node.emit('jump');
                 break;
         }
     },
