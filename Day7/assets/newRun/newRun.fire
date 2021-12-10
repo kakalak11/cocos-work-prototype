@@ -156,7 +156,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 539.5338265577053
+      "z": 477.1799974852257
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -729,8 +729,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Left",
-    "_N$string": "Left",
+    "_string": "Left (a)",
+    "_N$string": "Left (a)",
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": false,
@@ -1083,8 +1083,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Jump",
-    "_N$string": "Jump",
+    "_string": "Jump (w)",
+    "_N$string": "Jump (w)",
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": false,
@@ -1437,8 +1437,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Right",
-    "_N$string": "Right",
+    "_string": "Right (d)",
+    "_N$string": "Right (d)",
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": false,
