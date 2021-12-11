@@ -1,0 +1,72 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Animation/scripts/animationScript.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '56d0eMh5kBHYpMohrYyFB0S', 'animationScript', __filename);
+// Animation/scripts/animationScript.js
+
+'use strict';
+
+// Learn cc.Class:
+//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
+//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/class.html
+// Learn Attribute:
+//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
+//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
+//  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
+
+cc.Class({
+    extends: cc.Component,
+
+    properties: {
+        animation: sp.Skeleton,
+        footstepSound: cc.AudioSource
+    },
+
+    // LIFE-CYCLE CALLBACKS:
+
+    onLoad: function onLoad() {
+        var _this = this;
+
+        this.animation.setEventListener(function (entry, event) {
+            _this.footstepSound.play();
+            _this.animation.setTrackCompleteListener(entry, function () {
+                cc.log('complete track');
+            });
+            var data = event.data;
+
+            cc.log(data.name);
+        }, this);
+    },
+    start: function start() {
+        this.animation.setAnimation(0, 'walk', false);
+        // this.animation.setAnimation(0, 'aim', false);
+        // this.animation.addAnimation(0, 'death', false);
+        // this.animation.addAnimation(0, 'hoverboard', false);
+        // this.animation.addAnimation(0, 'idle', false);
+        // this.animation.addAnimation(0, 'idle-turn', false);
+        this.animation.addAnimation(0, 'portal', false);
+        this.animation.addAnimation(0, 'run', false);
+        // this.animation.addAnimation(0, 'run-to-idle', false);
+        // this.animation.addAnimation(0, 'shoot', false);
+        // this.animation.addAnimation(0, 'walk', false);
+
+        // this.animation.setStartListener(() => cc.log('this is start listener'));
+    }
+}
+
+// update (dt) {},
+);
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=animationScript.js.map
+        
