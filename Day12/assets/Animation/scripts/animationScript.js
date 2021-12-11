@@ -21,9 +21,6 @@ cc.Class({
     onLoad() {
         this.animation.setEventListener((entry, event) => {
             this.footstepSound.play();
-            this.animation.setTrackCompleteListener(entry, () => {
-                cc.log('complete track');
-            });
             const { data } = event;
             cc.log(data.name);
         }, this);
@@ -36,13 +33,15 @@ cc.Class({
         // this.animation.addAnimation(0, 'hoverboard', false);
         // this.animation.addAnimation(0, 'idle', false);
         // this.animation.addAnimation(0, 'idle-turn', false);
-        this.animation.addAnimation(0, 'portal', false);
+        // this.animation.addAnimation(0, 'portal', false);
         this.animation.addAnimation(0, 'run', false);
         // this.animation.addAnimation(0, 'run-to-idle', false);
         // this.animation.addAnimation(0, 'shoot', false);
         // this.animation.addAnimation(0, 'walk', false);
 
-        // this.animation.setStartListener(() => cc.log('this is start listener'));
+        this.animation.setTrackCompleteListener(this.animation.getCurrent(0), () => {
+            cc.log('complete track')
+        });
 
     },
 
