@@ -1,0 +1,88 @@
+2021-12-09T04:33:56.966Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-09T04:33:57.002Z - normal: Initializing Asset Database
+2021-12-09T04:33:57.003Z - normal: checking language setting...
+2021-12-09T04:33:57.003Z - normal: Language: en
+2021-12-09T04:33:57.400Z - success: preview server running at http://localhost:7456
+2021-12-09T04:33:57.412Z - success: protocol editor-framework registered
+2021-12-09T04:33:57.412Z - success: protocol app registered
+2021-12-09T04:33:57.412Z - success: protocol theme registered
+2021-12-09T04:33:57.413Z - success: protocol packages registered
+2021-12-09T04:33:57.413Z - success: protocol uuid registerred
+2021-12-09T04:33:57.413Z - success: protocol db registerred
+2021-12-09T04:33:57.413Z - success: protocol thumbnail registerred
+2021-12-09T04:33:57.413Z - success: protocol unpack registerred
+2021-12-09T04:33:57.413Z - success: protocol disable-commonjs registerred
+2021-12-09T04:33:58.581Z - normal: connected!
+2021-12-09T04:33:58.583Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5
+2021-12-09T04:33:58.584Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5
+2021-12-09T04:33:58.808Z - normal: Initializing Cocos2d
+2021-12-09T04:33:59.179Z - normal: Initializing engine extends
+2021-12-09T04:33:59.193Z - success: alipay-adapter loaded
+2021-12-09T04:33:59.198Z - success: asset-db-debugger loaded
+2021-12-09T04:33:59.200Z - success: baidu-adapter loaded
+2021-12-09T04:33:59.203Z - success: color-picker loaded
+2021-12-09T04:33:59.276Z - success: fb-audience-network loaded
+2021-12-09T04:33:59.317Z - success: fb-live-stream loaded
+2021-12-09T04:33:59.323Z - success: google-play-instant loaded
+2021-12-09T04:33:59.326Z - success: huawei-runtime loaded
+2021-12-09T04:33:59.451Z - success: cpk-publish loaded
+2021-12-09T04:33:59.452Z - success: jsb-adapter loaded
+2021-12-09T04:33:59.454Z - success: oppo-runtime loaded
+2021-12-09T04:33:59.457Z - success: package-manager loaded
+2021-12-09T04:33:59.522Z - success: qqplay-adapter loaded
+2021-12-09T04:33:59.523Z - success: runtime-dev-tools loaded
+2021-12-09T04:33:59.543Z - success: sdkbox loaded
+2021-12-09T04:33:59.547Z - success: tester loaded
+2021-12-09T04:33:59.549Z - success: ui-kit-preview-extra loaded
+2021-12-09T04:33:59.551Z - success: ui-kit-preview loaded
+2021-12-09T04:33:59.553Z - success: ui-kit loaded
+2021-12-09T04:33:59.557Z - success: vivo-runtime loaded
+2021-12-09T04:33:59.558Z - success: weapp-adapter loaded
+2021-12-09T04:33:59.559Z - success: xiaomi-adapter loaded
+2021-12-09T04:33:59.561Z - success: alipay-minigame loaded
+2021-12-09T04:33:59.589Z - success: assets loaded
+2021-12-09T04:33:59.591Z - success: builder loaded
+2021-12-09T04:33:59.752Z - success: cocos-services loaded
+2021-12-09T04:33:59.756Z - success: console loaded
+2021-12-09T04:33:59.787Z - success: fb-instant-games loaded
+2021-12-09T04:33:59.789Z - success: game-window loaded
+2021-12-09T04:33:59.791Z - success: google-instant-games loaded
+2021-12-09T04:33:59.794Z - success: hierarchy loaded
+2021-12-09T04:33:59.797Z - success: inspector loaded
+2021-12-09T04:33:59.798Z - success: keystore loaded
+2021-12-09T04:33:59.802Z - success: node-library loaded
+2021-12-09T04:33:59.803Z - success: package-asset loaded
+2021-12-09T04:33:59.804Z - success: preferences loaded
+2021-12-09T04:33:59.808Z - success: project-exporter loaded
+2021-12-09T04:33:59.812Z - success: project-importer loaded
+2021-12-09T04:33:59.815Z - success: project-settings loaded
+2021-12-09T04:33:59.818Z - success: scene loaded
+2021-12-09T04:33:59.819Z - success: simulator-debugger loaded
+2021-12-09T04:33:59.820Z - success: sprite-editor loaded
+2021-12-09T04:33:59.824Z - success: store loaded
+2021-12-09T04:33:59.828Z - success: timeline loaded
+2021-12-09T04:33:59.831Z - success: xiaomi-runtime loaded
+2021-12-09T04:34:00.585Z - normal: Loading packages
+2021-12-09T04:34:00.588Z - normal: Watching packages
+2021-12-09T04:34:00.669Z - normal: Run Application
+2021-12-09T04:34:04.261Z - error: A Class already exists with the same __classname__ : "mainForm".
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32
+    at Object.js.setClassName (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:267:17)
+    at doDefine (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:268:16)
+    at define (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:284:23)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:651:23)
+    at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:19:4)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:200:13
+    at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:207:11)
+    at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:210:3)
+2021-12-09T04:34:04.262Z - error: A Class already exists with the same __cid__ : "18d42ASHGtASa+Y39j+2P2l".
+    at Object._setClassId (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32)
+    at define (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:289:28)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:651:23)
+    at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:19:4)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:200:13
+    at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:207:11)
+    at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day5/temp/quick-scripts/assets/SignUpForm/script/mainForm.js:210:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2021-12-09T04:34:06.140Z - info: shutdown preview server
