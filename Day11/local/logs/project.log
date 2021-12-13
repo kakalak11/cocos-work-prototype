@@ -1,72 +1,72 @@
-2021-12-11T03:39:16.845Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-11T03:39:16.882Z - normal: Initializing Asset Database
-2021-12-11T03:39:16.883Z - normal: checking language setting...
-2021-12-11T03:39:16.883Z - normal: Language: en
-2021-12-11T03:39:17.274Z - success: preview server running at http://localhost:7456
-2021-12-11T03:39:17.285Z - success: protocol editor-framework registered
-2021-12-11T03:39:17.285Z - success: protocol app registered
-2021-12-11T03:39:17.285Z - success: protocol theme registered
-2021-12-11T03:39:17.285Z - success: protocol packages registered
-2021-12-11T03:39:17.285Z - success: protocol uuid registerred
-2021-12-11T03:39:17.285Z - success: protocol db registerred
-2021-12-11T03:39:17.286Z - success: protocol thumbnail registerred
-2021-12-11T03:39:17.286Z - success: protocol unpack registerred
-2021-12-11T03:39:17.286Z - success: protocol disable-commonjs registerred
-2021-12-11T03:39:18.300Z - normal: connected!
-2021-12-11T03:39:18.301Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11
-2021-12-11T03:39:18.302Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11
-2021-12-11T03:39:18.576Z - normal: Initializing Cocos2d
-2021-12-11T03:39:18.999Z - normal: Initializing engine extends
-2021-12-11T03:39:19.016Z - success: alipay-adapter loaded
-2021-12-11T03:39:19.022Z - success: asset-db-debugger loaded
-2021-12-11T03:39:19.024Z - success: baidu-adapter loaded
-2021-12-11T03:39:19.027Z - success: color-picker loaded
-2021-12-11T03:39:19.132Z - success: fb-audience-network loaded
-2021-12-11T03:39:19.166Z - success: fb-live-stream loaded
-2021-12-11T03:39:19.167Z - success: google-play-instant loaded
-2021-12-11T03:39:19.171Z - success: huawei-runtime loaded
-2021-12-11T03:39:19.312Z - success: cpk-publish loaded
-2021-12-11T03:39:19.313Z - success: jsb-adapter loaded
-2021-12-11T03:39:19.316Z - success: oppo-runtime loaded
-2021-12-11T03:39:19.319Z - success: package-manager loaded
-2021-12-11T03:39:19.387Z - success: qqplay-adapter loaded
-2021-12-11T03:39:19.388Z - success: runtime-dev-tools loaded
-2021-12-11T03:39:19.407Z - success: sdkbox loaded
-2021-12-11T03:39:19.410Z - success: tester loaded
-2021-12-11T03:39:19.411Z - success: ui-kit-preview-extra loaded
-2021-12-11T03:39:19.413Z - success: ui-kit-preview loaded
-2021-12-11T03:39:19.415Z - success: ui-kit loaded
-2021-12-11T03:39:19.418Z - success: vivo-runtime loaded
-2021-12-11T03:39:19.419Z - success: weapp-adapter loaded
-2021-12-11T03:39:19.419Z - success: xiaomi-adapter loaded
-2021-12-11T03:39:19.420Z - success: alipay-minigame loaded
-2021-12-11T03:39:19.450Z - success: assets loaded
-2021-12-11T03:39:19.452Z - success: builder loaded
-2021-12-11T03:39:19.614Z - success: cocos-services loaded
-2021-12-11T03:39:19.618Z - success: console loaded
-2021-12-11T03:39:19.641Z - success: fb-instant-games loaded
-2021-12-11T03:39:19.645Z - success: game-window loaded
-2021-12-11T03:39:19.646Z - success: google-instant-games loaded
-2021-12-11T03:39:19.649Z - success: hierarchy loaded
-2021-12-11T03:39:19.651Z - success: inspector loaded
-2021-12-11T03:39:19.652Z - success: keystore loaded
-2021-12-11T03:39:19.655Z - success: node-library loaded
-2021-12-11T03:39:19.656Z - success: package-asset loaded
-2021-12-11T03:39:19.657Z - success: preferences loaded
-2021-12-11T03:39:19.659Z - success: project-exporter loaded
-2021-12-11T03:39:19.663Z - success: project-importer loaded
-2021-12-11T03:39:19.665Z - success: project-settings loaded
-2021-12-11T03:39:19.668Z - success: scene loaded
-2021-12-11T03:39:19.669Z - success: simulator-debugger loaded
-2021-12-11T03:39:19.670Z - success: sprite-editor loaded
-2021-12-11T03:39:19.675Z - success: store loaded
-2021-12-11T03:39:19.679Z - success: timeline loaded
-2021-12-11T03:39:19.682Z - success: xiaomi-runtime loaded
-2021-12-11T03:39:20.510Z - normal: Loading packages
-2021-12-11T03:39:20.513Z - normal: Watching packages
-2021-12-11T03:39:20.582Z - normal: Run Application
-2021-12-11T03:39:21.732Z - info: Cocos Services load base data!
-2021-12-11T03:39:24.364Z - error: A Class already exists with the same __classname__ : "30easeScript".
+2021-12-13T03:06:36.097Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-13T03:06:36.136Z - normal: Initializing Asset Database
+2021-12-13T03:06:36.138Z - normal: checking language setting...
+2021-12-13T03:06:36.139Z - normal: Language: en
+2021-12-13T03:06:36.569Z - success: preview server running at http://localhost:7456
+2021-12-13T03:06:36.582Z - success: protocol editor-framework registered
+2021-12-13T03:06:36.582Z - success: protocol app registered
+2021-12-13T03:06:36.582Z - success: protocol theme registered
+2021-12-13T03:06:36.582Z - success: protocol packages registered
+2021-12-13T03:06:36.582Z - success: protocol uuid registerred
+2021-12-13T03:06:36.582Z - success: protocol db registerred
+2021-12-13T03:06:36.582Z - success: protocol thumbnail registerred
+2021-12-13T03:06:36.582Z - success: protocol unpack registerred
+2021-12-13T03:06:36.582Z - success: protocol disable-commonjs registerred
+2021-12-13T03:06:37.678Z - normal: connected!
+2021-12-13T03:06:37.680Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11
+2021-12-13T03:06:37.682Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11
+2021-12-13T03:06:37.919Z - normal: Initializing Cocos2d
+2021-12-13T03:06:38.311Z - normal: Initializing engine extends
+2021-12-13T03:06:38.327Z - success: alipay-adapter loaded
+2021-12-13T03:06:38.332Z - success: asset-db-debugger loaded
+2021-12-13T03:06:38.335Z - success: baidu-adapter loaded
+2021-12-13T03:06:38.338Z - success: color-picker loaded
+2021-12-13T03:06:38.427Z - success: fb-audience-network loaded
+2021-12-13T03:06:38.455Z - success: fb-live-stream loaded
+2021-12-13T03:06:38.457Z - success: google-play-instant loaded
+2021-12-13T03:06:38.459Z - success: huawei-runtime loaded
+2021-12-13T03:06:38.587Z - success: cpk-publish loaded
+2021-12-13T03:06:38.588Z - success: jsb-adapter loaded
+2021-12-13T03:06:38.591Z - success: oppo-runtime loaded
+2021-12-13T03:06:38.594Z - success: package-manager loaded
+2021-12-13T03:06:38.657Z - success: qqplay-adapter loaded
+2021-12-13T03:06:38.658Z - success: runtime-dev-tools loaded
+2021-12-13T03:06:38.678Z - success: sdkbox loaded
+2021-12-13T03:06:38.681Z - success: tester loaded
+2021-12-13T03:06:38.683Z - success: ui-kit-preview-extra loaded
+2021-12-13T03:06:38.684Z - success: ui-kit-preview loaded
+2021-12-13T03:06:38.686Z - success: ui-kit loaded
+2021-12-13T03:06:38.690Z - success: vivo-runtime loaded
+2021-12-13T03:06:38.690Z - success: weapp-adapter loaded
+2021-12-13T03:06:38.691Z - success: xiaomi-adapter loaded
+2021-12-13T03:06:38.693Z - success: alipay-minigame loaded
+2021-12-13T03:06:38.722Z - success: assets loaded
+2021-12-13T03:06:38.724Z - success: builder loaded
+2021-12-13T03:06:38.874Z - success: cocos-services loaded
+2021-12-13T03:06:38.880Z - success: console loaded
+2021-12-13T03:06:38.901Z - success: fb-instant-games loaded
+2021-12-13T03:06:38.905Z - success: game-window loaded
+2021-12-13T03:06:38.906Z - success: google-instant-games loaded
+2021-12-13T03:06:38.909Z - success: hierarchy loaded
+2021-12-13T03:06:38.912Z - success: inspector loaded
+2021-12-13T03:06:38.913Z - success: keystore loaded
+2021-12-13T03:06:38.916Z - success: node-library loaded
+2021-12-13T03:06:38.917Z - success: package-asset loaded
+2021-12-13T03:06:38.918Z - success: preferences loaded
+2021-12-13T03:06:38.920Z - success: project-exporter loaded
+2021-12-13T03:06:38.923Z - success: project-importer loaded
+2021-12-13T03:06:38.926Z - success: project-settings loaded
+2021-12-13T03:06:38.928Z - success: scene loaded
+2021-12-13T03:06:38.929Z - success: simulator-debugger loaded
+2021-12-13T03:06:38.930Z - success: sprite-editor loaded
+2021-12-13T03:06:38.934Z - success: store loaded
+2021-12-13T03:06:38.938Z - success: timeline loaded
+2021-12-13T03:06:38.940Z - success: xiaomi-runtime loaded
+2021-12-13T03:06:41.353Z - info: Cocos Services load base data!
+2021-12-13T03:06:42.417Z - normal: Loading packages
+2021-12-13T03:06:42.422Z - normal: Watching packages
+2021-12-13T03:06:42.504Z - normal: Run Application
+2021-12-13T03:06:45.831Z - error: A Class already exists with the same __classname__ : "30easeScript".
     at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32
     at Object.js.setClassName (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:267:17)
     at doDefine (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:268:16)
@@ -76,7 +76,7 @@
     at e (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/30ease/web-desktop/src/project.js:14:47)
     at n (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/30ease/web-desktop/src/project.js:19:5)
     at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/30ease/web-desktop/src/project.js:21:2)
-2021-12-11T03:39:24.364Z - error: A Class already exists with the same __cid__ : "ec34fzgy0dKPq9njdd2/xaM".
+2021-12-13T03:06:45.831Z - error: A Class already exists with the same __cid__ : "ec34fzgy0dKPq9njdd2/xaM".
     at Object._setClassId (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32)
     at define (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:289:28)
     at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:651:23)
@@ -86,7 +86,7 @@
     at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/30ease/web-desktop/src/project.js:21:2)
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/30ease/web-desktop/src/project.js:49:13
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/30ease/web-desktop/src/project.js:56:11)
-2021-12-11T03:39:24.367Z - error: A Class already exists with the same __classname__ : "HelloWorld".
+2021-12-13T03:06:45.833Z - error: A Class already exists with the same __classname__ : "HelloWorld".
     at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32
     at Object.js.setClassName (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:267:17)
     at doDefine (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:268:16)
@@ -96,7 +96,7 @@
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/Scripts/HelloWorld.js:31:13
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/Scripts/HelloWorld.js:38:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/Scripts/HelloWorld.js:41:3)
-2021-12-11T03:39:24.368Z - error: A Class already exists with the same __classname__ : "animationScript".
+2021-12-13T03:06:45.834Z - error: A Class already exists with the same __classname__ : "animationScript".
     at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:257:32
     at Object.js.setClassName (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/js.js:267:17)
     at doDefine (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:268:16)
@@ -106,14 +106,13 @@
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/Scripts/animationScript.js:69:13
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/Scripts/animationScript.js:76:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day11/temp/quick-scripts/assets/Scripts/animationScript.js:79:3)
-2021-12-11T03:39:33.168Z - warn: The Asset used by component "cc.Sprite" in scene "helloworld.fire" is missing. Detailed information:
+2021-12-13T03:06:45.889Z - warn: The Asset used by component "cc.Sprite" in scene "helloworld.fire" is missing. Detailed information:
 Node path: "Canvas/background"
 Asset url: "db://assets/Scene/helloworld.fire"
 Missing uuid: "410fb916-8721-4663-bab8-34397391ace7"
 
-2021-12-11T03:39:33.169Z - warn: The Asset used by component "sp.Skeleton" in scene "helloworld.fire" is missing. Detailed information:
+2021-12-13T03:06:45.891Z - warn: The Asset used by component "sp.Skeleton" in scene "helloworld.fire" is missing. Detailed information:
 Node path: "Canvas/space"
 Asset url: "db://assets/Scene/helloworld.fire"
 Missing uuid: "c37d56a5-d724-4caa-a741-d7b91fb726f8"
 
-2021-12-11T03:39:37.346Z - info: shutdown preview server
