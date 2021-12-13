@@ -18,6 +18,14 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
+    _onKeyDown: function (event) {
+        switch (event.keyCode) {
+            case cc.macro.KEY.space:
+                this.runAnimation();
+                break;
+        }
+    },
+
     onLoad() {
         this.animation.setEventListener((entry, event) => {
             this.footstepSound.play();
@@ -26,23 +34,28 @@ cc.Class({
         }, this);
     },
 
-    start() {
+    runAnimation: function () {
         this.animation.setAnimation(0, 'walk', false);
+        this.animation.addAnimation(0, 'run', false);
         // this.animation.setAnimation(0, 'aim', false);
         // this.animation.addAnimation(0, 'death', false);
         // this.animation.addAnimation(0, 'hoverboard', false);
         // this.animation.addAnimation(0, 'idle', false);
         // this.animation.addAnimation(0, 'idle-turn', false);
         // this.animation.addAnimation(0, 'portal', false);
-        this.animation.addAnimation(0, 'run', false);
         // this.animation.addAnimation(0, 'run-to-idle', false);
         // this.animation.addAnimation(0, 'shoot', false);
         // this.animation.addAnimation(0, 'walk', false);
 
-        this.animation.setTrackCompleteListener(this.animation.getCurrent(0), () => {
-            cc.log('complete track')
+        this.animation.setCompleteListener(() => {
+            cc.log('complete');
+            this.footstepSound.stop()
+            this.animation.setCompleteListener(() => { });
         });
+    },
 
+    start() {
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this._onKeyDown, this);
     },
 
     // update (dt) {},
