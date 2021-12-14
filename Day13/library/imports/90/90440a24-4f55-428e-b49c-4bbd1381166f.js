@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '90440okT1VCjrScS70TgRZv', 'ground');
-// newScene/scripts/ground.js
+cc._RF.push(module, '90440okT1VCjrScS70TgRZv', 'bullet');
+// newScene/scripts/bullet.js
 
 "use strict";
 
@@ -18,6 +18,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        _direction: null,
+        _speed: 1000
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching
@@ -39,7 +41,9 @@ cc.Class({
 
     onLoad: function onLoad() {},
     start: function start() {},
-    update: function update(dt) {}
+    update: function update(dt) {
+        this.node.x += this._speed;
+    }
 });
 
 cc._RF.pop();

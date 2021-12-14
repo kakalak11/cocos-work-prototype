@@ -13,25 +13,49 @@ cc.Class({
 
     properties: {
         _animating: false,
+        _moving: null,
+        _direction: 1,
+        _canShoot: null,
+        bulletPrefab: cc.Prefab,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
+    _jump: function () {
+        this.jumpThrough = true;
+        this._moving = true;
+        this.animation.setAnimation(0, 'jump', false);
+        this.node.runAction(cc.moveBy(1, 120 * this._direction, 0));
+        this.animation.setCompleteListener(() => {
+            this.animation.setCompleteListener(() => { });
+            this.animation.setAnimation(0, 'idle', true);
+            this.jumpThrough = false;
+            this._moving = false;
+        });
+    },
+
     _move: function (direction) {
-        this.direction = direction;
-        this.direction < 0 ? this.node.scaleX = -0.1 : this.node.scaleX = 0.1;
+        this._direction = direction;
+        if (this._moving) return;
+        this._moving = true;
         this.action = cc.sequence(
-            cc.callFunc(() => this.animation.setAnimation(0, 'run', true)),
-            cc.moveBy(1, 25 * this.direction, 0),
-            cc.callFunc(() => {
-                this.animation.setAnimation(0, 'idle', true);
-            }),
+            cc.spawn(
+                cc.moveBy(0.5, 60 * this._direction, 0).easing(cc.easeSineInOut(0.5)),
+                cc.scaleTo(0, 0.1 * this._direction, 0.1),
+                cc.callFunc(() => this.animation.setAnimation(0, 'run', true)),
+            ),
+            cc.callFunc(() => this._moving = false),
+            cc.callFunc(() => this.animation.addAnimation(0, 'idle', true)),
         );
         this.node.runAction(this.action);
     },
 
-    _jump: function () {
-        this.animation.setAnimation(0, 'jump', false);
+    _shoot: function () {
+        this.bullet = cc.instantiate(this.bulletPrefab);
+        this.node.addChild(this.bullet);
+        this.script = this.bullet.getComponent('bullet');
+        this.script.direction = this._direction;
+        this.animation.setAnimation(0, 'shoot', false);
         this.animation.setCompleteListener(() => {
             this.animation.setCompleteListener(() => { });
             this.animation.setAnimation(0, 'idle', true);
@@ -42,12 +66,7 @@ cc.Class({
         cc.log('key down');
         switch (event.keyCode) {
             case cc.macro.KEY.space:
-                this.node.stopAction(this.action);
-                this.animation.setAnimation(0, 'shoot', true);
-                this.animation.setCompleteListener(() => {
-                    this.animation.setCompleteListener(() => { });
-                    this.animation.setAnimation(0, 'idle', true);
-                });
+                this._shoot();
                 break;
             case cc.macro.KEY.a:
                 this._move(-1);
@@ -63,34 +82,23 @@ cc.Class({
     },
 
     onCollisionEnter: function (other, self) {
-        this._collision = true;
         cc.log('on collision enter');
-        if (other.tag === 1) {
-            this.node.stopAction(this.action);
-            this.animation.setAnimation(0, 'shoot', true);
-            this.animation.setCompleteListener(() => {
-                this.animation.setCompleteListener(() => { });
-                this.animation.setAnimation(0, 'idle', true);
-            });
-            return;
-        }
-        this.node.stopAction(this.action);
-        this.animation.setAnimation(0, 'jump', false);
-        this.node.runAction(cc.spawn(cc.moveBy(1, 100 * this.direction, 0), cc.callFunc(() => this.node.scaleX = 0.1 * this.direction)));
-        this.animation.setCompleteListener(() => {
-            this.animation.setCompleteListener(() => { });
-            this.animation.setAnimation(0, 'idle', true);
-        });
-
     },
 
     onCollisionStay: function (other, self) {
+        if (!this.jumpThrough) {
+            self.node.x += -this._direction * 2;
+            this.node.stopAction(this.action);
+            this.animation.setAnimation(0, 'idle', true);
+            this._moving = false;
+        }
 
     },
 
     onCollisionExit: function (other, self) {
-        this._collision = false;
         console.log('on collision exit');
+        // this._collision = false;
+        this._canShoot = false;
     },
 
     onLoad() {
@@ -103,7 +111,7 @@ cc.Class({
     },
 
     start() {
-
+        this.node.emit('test');
     },
 
     update(dt) {

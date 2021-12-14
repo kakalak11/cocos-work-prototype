@@ -19,7 +19,10 @@ cc.Class({
     onCollisionEnter: function (other, self) {
         cc.log('on collision enter');
 
-        if (self.tag === 1) {
+    },
+
+    onCollisionStay: function (other, self) {
+        if (self.tag === 1 && other.tag === 1) {
             cc.log(self.node);
             self.node.runAction(
                 cc.sequence(
@@ -30,10 +33,8 @@ cc.Class({
                     cc.callFunc(() => self.node.destroy()),
                 )
             );
+            other.node.destroy();
         }
-    },
-
-    onCollisionStay: function (other, self) {
     },
 
     onCollisionExit: function (other, self) {
@@ -41,6 +42,7 @@ cc.Class({
     },
 
     onLoad() {
+        this.node.on('shoot', () => this._shoot = true, this);
     },
 
     start() {

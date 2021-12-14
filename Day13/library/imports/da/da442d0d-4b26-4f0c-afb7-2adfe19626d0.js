@@ -23,22 +23,29 @@ cc.Class({
 
     onCollisionEnter: function onCollisionEnter(other, self) {
         cc.log('on collision enter');
+    },
 
-        if (self.tag === 1) {
+    onCollisionStay: function onCollisionStay(other, self) {
+        if (self.tag === 1 && other.tag === 1) {
             cc.log(self.node);
             self.node.runAction(cc.sequence(cc.spawn(cc.scaleTo(0.5, 2), cc.fadeOut(0.5, 0)), cc.callFunc(function () {
                 return self.node.destroy();
             })));
+            other.node.destroy();
         }
     },
-
-    onCollisionStay: function onCollisionStay(other, self) {},
 
     onCollisionExit: function onCollisionExit(other, self) {
         console.log('on collision exit');
     },
 
-    onLoad: function onLoad() {},
+    onLoad: function onLoad() {
+        var _this = this;
+
+        this.node.on('shoot', function () {
+            return _this._shoot = true;
+        }, this);
+    },
     start: function start() {}
 }
 

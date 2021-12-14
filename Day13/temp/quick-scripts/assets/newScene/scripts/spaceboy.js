@@ -18,46 +18,65 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        _animating: false
+        _animating: false,
+        _moving: null,
+        _direction: 1,
+        _canShoot: null,
+        bulletPrefab: cc.Prefab
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    _move: function _move(direction) {
+    _jump: function _jump() {
         var _this = this;
 
-        this.direction = direction;
-        this.direction < 0 ? this.node.scaleX = -0.1 : this.node.scaleX = 0.1;
-        this.action = cc.sequence(cc.callFunc(function () {
-            return _this.animation.setAnimation(0, 'run', true);
-        }), cc.moveBy(1, 25 * this.direction, 0), cc.callFunc(function () {
+        this.jumpThrough = true;
+        this._moving = true;
+        this.animation.setAnimation(0, 'jump', false);
+        this.node.runAction(cc.moveBy(1, 120 * this._direction, 0));
+        this.animation.setCompleteListener(function () {
+            _this.animation.setCompleteListener(function () {});
             _this.animation.setAnimation(0, 'idle', true);
+            _this.jumpThrough = false;
+            _this._moving = false;
+        });
+    },
+
+    _move: function _move(direction) {
+        var _this2 = this;
+
+        this._direction = direction;
+        if (this._moving) return;
+        this._moving = true;
+        this.action = cc.sequence(cc.spawn(cc.moveBy(0.5, 60 * this._direction, 0).easing(cc.easeSineInOut(0.5)), cc.scaleTo(0, 0.1 * this._direction, 0.1), cc.callFunc(function () {
+            return _this2.animation.setAnimation(0, 'run', true);
+        })), cc.callFunc(function () {
+            return _this2._moving = false;
+        }), cc.callFunc(function () {
+            return _this2.animation.addAnimation(0, 'idle', true);
         }));
         this.node.runAction(this.action);
     },
 
-    _jump: function _jump() {
-        var _this2 = this;
+    _shoot: function _shoot() {
+        var _this3 = this;
 
-        this.animation.setAnimation(0, 'jump', false);
+        this.bullet = cc.instantiate(this.bulletPrefab);
+        this.node.addChild(this.bullet);
+        this.script = this.bullet.getComponent('bullet');
+        this.script.direction = this._direction;
+        this.animation.setAnimation(0, 'shoot', false);
         this.animation.setCompleteListener(function () {
-            _this2.animation.setCompleteListener(function () {});
-            _this2.animation.setAnimation(0, 'idle', true);
+            _this3.animation.setCompleteListener(function () {});
+            _this3.animation.setAnimation(0, 'idle', true);
         });
     },
 
     _onKeyDown: function _onKeyDown(event) {
-        var _this3 = this;
-
         cc.log('key down');
         switch (event.keyCode) {
             case cc.macro.KEY.space:
-                this.node.stopAction(this.action);
-                this.animation.setAnimation(0, 'shoot', true);
-                this.animation.setCompleteListener(function () {
-                    _this3.animation.setCompleteListener(function () {});
-                    _this3.animation.setAnimation(0, 'idle', true);
-                });
+                this._shoot();
                 break;
             case cc.macro.KEY.a:
                 this._move(-1);
@@ -73,35 +92,22 @@ cc.Class({
     },
 
     onCollisionEnter: function onCollisionEnter(other, self) {
-        var _this4 = this;
-
-        this._collision = true;
         cc.log('on collision enter');
-        if (other.tag === 1) {
-            this.node.stopAction(this.action);
-            this.animation.setAnimation(0, 'shoot', true);
-            this.animation.setCompleteListener(function () {
-                _this4.animation.setCompleteListener(function () {});
-                _this4.animation.setAnimation(0, 'idle', true);
-            });
-            return;
-        }
-        this.node.stopAction(this.action);
-        this.animation.setAnimation(0, 'jump', false);
-        this.node.runAction(cc.spawn(cc.moveBy(1, 100 * this.direction, 0), cc.callFunc(function () {
-            return _this4.node.scaleX = 0.1 * _this4.direction;
-        })));
-        this.animation.setCompleteListener(function () {
-            _this4.animation.setCompleteListener(function () {});
-            _this4.animation.setAnimation(0, 'idle', true);
-        });
     },
 
-    onCollisionStay: function onCollisionStay(other, self) {},
+    onCollisionStay: function onCollisionStay(other, self) {
+        if (!this.jumpThrough) {
+            self.node.x += -this._direction * 2;
+            this.node.stopAction(this.action);
+            this.animation.setAnimation(0, 'idle', true);
+            this._moving = false;
+        }
+    },
 
     onCollisionExit: function onCollisionExit(other, self) {
-        this._collision = false;
         console.log('on collision exit');
+        // this._collision = false;
+        this._canShoot = false;
     },
 
     onLoad: function onLoad() {
@@ -112,7 +118,9 @@ cc.Class({
         // manager.enabledDrawBoundingBox = true;
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this._onKeyDown, this);
     },
-    start: function start() {},
+    start: function start() {
+        this.node.emit('test');
+    },
     update: function update(dt) {
         // this.node.runAction(cc.moveBy(0.25, 10, 0));
     }
