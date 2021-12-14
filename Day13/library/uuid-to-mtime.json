@@ -430,19 +430,14 @@
     "relativePath": "Script"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1639463394139,
-    "meta": 1639463394287,
+    "asset": 1639464730082,
+    "meta": 1639464730097,
     "relativePath": "Scene/helloworld.fire"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
     "asset": 1639463383898,
     "meta": 1639463383896,
     "relativePath": "Texture"
-  },
-  "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1639463383898,
-    "meta": 1639463394292,
-    "relativePath": "Script/HelloWorld.js"
   },
   "a8027877-d8d6-4645-97a0-52d4a0123dba": {
     "asset": 1639463383899,
@@ -453,5 +448,65 @@
     "asset": 1639463383899,
     "meta": 1639463394314,
     "relativePath": "Texture/HelloWorld.png"
+  },
+  "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
+    "asset": 1639463900141,
+    "meta": 1639463972314,
+    "relativePath": "Script/HelloWorld.js"
+  },
+  "a45610a6-8624-4981-94f2-a7b5b1184bc2": {
+    "asset": 1639476245713,
+    "meta": 1639476245730,
+    "relativePath": "newScene/newScene.fire"
+  },
+  "b378800c-f7c5-43a9-8f43-b9a5bf1c99ae": {
+    "asset": 1639464856861,
+    "meta": 1639464856862,
+    "relativePath": "newScene"
+  },
+  "f0e99bd5-9968-4bc0-8ed5-0c7210ef917e": {
+    "asset": 1639464869896,
+    "meta": 1639464869896,
+    "relativePath": "newScene/scripts"
+  },
+  "90440a24-4f55-428e-b49c-4bbd1381166f": {
+    "asset": 1639466092793,
+    "meta": 1639466635580,
+    "relativePath": "newScene/scripts/ground.js"
+  },
+  "eda64a5f-eae6-43f0-add5-efe422751a21": {
+    "asset": 1639466687879,
+    "meta": 1639466687879,
+    "relativePath": "newScene/sprite"
+  },
+  "43ffce2b-3e56-48d6-baee-221ef614359f": {
+    "asset": 1639191099701,
+    "meta": 1639466687879,
+    "relativePath": "newScene/sprite/export_37"
+  },
+  "9d22e142-2a8c-4617-b0a7-6d12d01fb10f": {
+    "asset": 1639191099701,
+    "meta": 1639466687918,
+    "relativePath": "newScene/sprite/export_37/spineboy-pro_3.7_output.atlas"
+  },
+  "e300e9bd-baf9-4411-b3b6-0232895b2a7f": {
+    "asset": 1639191099704,
+    "meta": 1639466687978,
+    "relativePath": "newScene/sprite/export_37/spineboy-pro_3.7_output.png"
+  },
+  "c37d56a5-d724-4caa-a741-d7b91fb726f8": {
+    "asset": 1639191099702,
+    "meta": 1639466688004,
+    "relativePath": "newScene/sprite/export_37/spineboy-pro_3.7_output.json"
+  },
+  "da442d0d-4b26-4f0c-afb7-2adfe19626d0": {
+    "asset": 1639471661127,
+    "meta": 1639471890458,
+    "relativePath": "newScene/scripts/objectFalling.js"
+  },
+  "88b9fac5-3244-45e1-923d-2cda9b7cec0a": {
+    "asset": 1639476088577,
+    "meta": 1639476089440,
+    "relativePath": "newScene/scripts/spaceboy.js"
   }
 }
