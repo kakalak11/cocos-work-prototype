@@ -1,0 +1,21 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/build/web-desktop/src/settings.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '902c8opIHtEt66Yf2MKU2Wd', 'settings', __filename);
+// build/web-desktop/src/settings.js
+
+"use strict";
+
+window._CCSettings = { platform: "web-desktop", groupList: ["default", "object", "player", "enemy"], collisionMatrix: [[true], [false, true, false, true], [false, false, false, false], [false, true, false, false]], rawAssets: { assets: {}, internal: { "0": ["materials/builtin-unlit.mtl", 1], "1": ["effects/builtin-unlit.effect", 0], "2": ["effects/builtin-2d-gray-sprite.effect", 0], "3": ["materials/builtin-2d-gray-sprite.mtl", 1], "5": ["effects/builtin-clear-stencil.effect", 0], "6": ["materials/builtin-clear-stencil.mtl", 1], "7": ["effects/builtin-2d-spine.effect", 0], "8": ["materials/builtin-2d-spine.mtl", 1], "28dPjdQWxEQIG3VVl1Qm6T": ["effects/builtin-2d-sprite.effect", 0], "796vrvt+9F2Zw/WR3INvx6": ["effects/builtin-unlit-transparent.effect", 0], "6fgBCSDDdPMInvyNlggls2": ["materials/builtin-2d-base.mtl", 1], "ecpdLyjvZBwrvm+cedCcQy": ["materials/builtin-2d-sprite.mtl", 1] } }, assetTypes: ["cc.EffectAsset", "cc.Material"], launchScene: "db://assets/newScene.fire", scenes: [{ url: "db://assets/newScene.fire", uuid: 4 }], packedAssets: { "02618fd92": ["02delMVqdBD70a/HSD99FK", "d4jBbkm5VBcZwZE+KTWjko", "e3AOm9uvlEEbO2AjKJWyp/", "edpK+nTxhNV4VEn86nNpNH"], "079499991": [0, 1], "07ce7530a": [2, 3], "0a843fff1": ["28kWL0sDlHTZg2OXkgGsag", "36Uz55zCVGE73MD3xk7mxV", "38kW0tu8pObKaSc5i6gtkp", "a2MjXRFdtLlYQ5ouAFv/+R", "c3fVal1yRMqqdB17kftyb4", 4], "0d669730c": [5, 6], "0e4bc3b03": [7, 8] }, md5AssetsMap: {}, orientation: "", debug: false, subpackages: {}, uuids: ["2aKWBXJHxKHLvrBUi2yYZQ", "6dkeWRTOBGXICfYQ7JUBnG", "14TDKXr2NJ6LjvHPops74o", "3ae7efMv1CLq2ilvUY/tQi", "dcffVbVjNI6KYZNBYjWj37", "c0BAyVxX9JzZy8EjFrc9DU", "cffgu4qBxEqa150o1DmRAy", "0ek66qC1NOQLjgYmi04HvX", "7a/QZLET9IDreTiBfRn2PD"] };
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=settings.js.map
+        
