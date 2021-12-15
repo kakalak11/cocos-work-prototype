@@ -43,5 +43,6 @@ cc.Class({
 
     update(dt) {
         this.node.x += this._speed;
+        cc.log('bullet flying');
     },
 });

@@ -2,7 +2,7 @@
 cc._RF.push(module, '90440okT1VCjrScS70TgRZv', 'bullet', __filename);
 // newScene/scripts/bullet.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -43,6 +43,7 @@ cc.Class({
     start: function start() {},
     update: function update(dt) {
         this.node.x += this._speed;
+        cc.log('bullet flying');
     }
 });
 
