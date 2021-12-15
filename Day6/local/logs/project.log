@@ -1,0 +1,153 @@
+2021-12-09T02:06:59.935Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-09T02:06:59.981Z - normal: Initializing Asset Database
+2021-12-09T02:06:59.982Z - normal: checking language setting...
+2021-12-09T02:06:59.982Z - normal: Language: en
+2021-12-09T02:07:00.517Z - success: preview server running at http://localhost:7456
+2021-12-09T02:07:00.529Z - success: protocol editor-framework registered
+2021-12-09T02:07:00.529Z - success: protocol app registered
+2021-12-09T02:07:00.529Z - success: protocol theme registered
+2021-12-09T02:07:00.529Z - success: protocol packages registered
+2021-12-09T02:07:00.530Z - success: protocol uuid registerred
+2021-12-09T02:07:00.530Z - success: protocol db registerred
+2021-12-09T02:07:00.530Z - success: protocol thumbnail registerred
+2021-12-09T02:07:00.530Z - success: protocol unpack registerred
+2021-12-09T02:07:00.530Z - success: protocol disable-commonjs registerred
+2021-12-09T02:07:03.170Z - normal: connected!
+2021-12-09T02:07:03.171Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6
+2021-12-09T02:07:03.176Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6
+2021-12-09T02:07:03.506Z - normal: Initializing Cocos2d
+2021-12-09T02:07:04.148Z - normal: Initializing engine extends
+2021-12-09T02:07:04.177Z - success: alipay-adapter loaded
+2021-12-09T02:07:04.189Z - success: asset-db-debugger loaded
+2021-12-09T02:07:04.190Z - success: baidu-adapter loaded
+2021-12-09T02:07:04.191Z - success: color-picker loaded
+2021-12-09T02:07:04.316Z - success: fb-audience-network loaded
+2021-12-09T02:07:04.367Z - success: fb-live-stream loaded
+2021-12-09T02:07:04.371Z - success: google-play-instant loaded
+2021-12-09T02:07:04.377Z - success: huawei-runtime loaded
+2021-12-09T02:07:04.595Z - success: cpk-publish loaded
+2021-12-09T02:07:04.596Z - success: jsb-adapter loaded
+2021-12-09T02:07:04.600Z - success: oppo-runtime loaded
+2021-12-09T02:07:04.605Z - success: package-manager loaded
+2021-12-09T02:07:04.717Z - success: qqplay-adapter loaded
+2021-12-09T02:07:04.719Z - success: runtime-dev-tools loaded
+2021-12-09T02:07:04.741Z - success: sdkbox loaded
+2021-12-09T02:07:04.744Z - success: tester loaded
+2021-12-09T02:07:04.747Z - success: ui-kit-preview-extra loaded
+2021-12-09T02:07:04.750Z - success: ui-kit-preview loaded
+2021-12-09T02:07:04.753Z - success: ui-kit loaded
+2021-12-09T02:07:04.759Z - success: vivo-runtime loaded
+2021-12-09T02:07:04.760Z - success: weapp-adapter loaded
+2021-12-09T02:07:04.766Z - success: xiaomi-adapter loaded
+2021-12-09T02:07:04.768Z - success: alipay-minigame loaded
+2021-12-09T02:07:04.801Z - success: assets loaded
+2021-12-09T02:07:04.804Z - success: builder loaded
+2021-12-09T02:07:05.042Z - success: cocos-services loaded
+2021-12-09T02:07:05.047Z - success: console loaded
+2021-12-09T02:07:05.074Z - success: fb-instant-games loaded
+2021-12-09T02:07:05.078Z - success: game-window loaded
+2021-12-09T02:07:05.079Z - success: google-instant-games loaded
+2021-12-09T02:07:05.084Z - success: hierarchy loaded
+2021-12-09T02:07:05.089Z - success: inspector loaded
+2021-12-09T02:07:05.090Z - success: keystore loaded
+2021-12-09T02:07:05.095Z - success: node-library loaded
+2021-12-09T02:07:05.097Z - success: package-asset loaded
+2021-12-09T02:07:05.099Z - success: preferences loaded
+2021-12-09T02:07:05.102Z - success: project-exporter loaded
+2021-12-09T02:07:05.107Z - success: project-importer loaded
+2021-12-09T02:07:05.110Z - success: project-settings loaded
+2021-12-09T02:07:05.114Z - success: scene loaded
+2021-12-09T02:07:05.115Z - success: simulator-debugger loaded
+2021-12-09T02:07:05.117Z - success: sprite-editor loaded
+2021-12-09T02:07:05.121Z - success: store loaded
+2021-12-09T02:07:05.127Z - success: timeline loaded
+2021-12-09T02:07:05.131Z - success: xiaomi-runtime loaded
+2021-12-09T02:07:08.235Z - info: Cocos Services load base data!
+2021-12-09T02:07:08.708Z - normal: Loading packages
+2021-12-09T02:07:08.715Z - normal: Watching packages
+2021-12-09T02:07:08.791Z - normal: Run Application
+2021-12-09T03:28:14.303Z - warn: Script attached to "cocos" in scene "run.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/cocos"
+Asset url: "db://assets/run/run.fire"
+Script UUID: "c587d49f-7aba-47cc-ab62-958a3ea2a99f"
+Class ID: "c587dSferpHzKtilYo+oqmf"
+
+2021-12-09T03:28:14.330Z - warn: The Asset used by component "cc.Sprite" in scene "run.fire" is missing. Detailed information:
+Node path: "Canvas/background"
+Asset url: "db://assets/run/run.fire"
+Missing uuid: "dee59107-41de-4e0a-a960-ffdfcd9ba59b"
+
+2021-12-09T03:28:14.330Z - warn: The Asset used by component "cc.Sprite" in scene "run.fire" is missing. Detailed information:
+Node path: "Canvas/cocos"
+Asset url: "db://assets/run/run.fire"
+Missing uuid: "31bc895a-c003-4566-a9f3-2e54ae1c17dc"
+
+2021-12-09T03:43:17.632Z - failed: [db-task][sync-changes] Failed to import asset /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/assets/run/script/scriptKey.js, message: Compile error: SyntaxError: /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/assets/run/script/scriptKey.js: Unsyntactic break (44:8)
+  42 | 
+  43 |         }
+> 44 |         break;
+     |         ^
+  45 |     },
+  46 |     onKeyUp: function (event) {
+  47 |         switch (event.keyCode) {
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp$1.parseBreakContinueStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1970:44)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1830:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4235:22)
+    at Parser.pp$1.parseFunction (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3760:17)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3722:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+2021-12-09T03:44:33.168Z - failed: [db-task][sync-changes] Failed to import asset /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/assets/run/script/scriptKey.js, message: Compile error: SyntaxError: /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/assets/run/script/scriptKey.js: Unsyntactic break (44:8)
+  42 | 
+  43 |         }
+> 44 |         break;
+     |         ^
+  45 |     },
+  46 |     onKeyUp: function (event) {
+  47 |         switch (event.keyCode) {
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp$1.parseBreakContinueStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1970:44)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1830:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4235:22)
+    at Parser.pp$1.parseFunction (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3760:17)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3722:19)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+2021-12-09T03:52:28.122Z - failed: load script [mEmitter] failed : Error: Cannot find module 'mEmitter'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/hahaScript.js:1:352
+    at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/hahaScript.js:17:15)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/hahaScript.js:38:13
+2021-12-09T03:52:57.805Z - failed: load script [mEmitter] failed : Error: Cannot find module 'mEmitter'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/hahaScript.js:1:352
+    at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/hahaScript.js:17:15)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/hahaScript.js:38:13
+2021-12-09T03:57:31.359Z - failed: load script [mEmitter] failed : Error: Cannot find module 'mEmitter'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.s._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:941)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:589)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/javaScript.js:1:352
+    at __define (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/javaScript.js:7:15)
+    at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day6/temp/quick-scripts/assets/script/javaScript.js:22:13

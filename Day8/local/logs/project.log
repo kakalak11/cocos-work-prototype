@@ -1,0 +1,96 @@
+2021-12-10T06:28:13.232Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-10T06:28:13.268Z - normal: Initializing Asset Database
+2021-12-10T06:28:13.270Z - normal: checking language setting...
+2021-12-10T06:28:13.270Z - normal: Language: en
+2021-12-10T06:28:13.676Z - success: preview server running at http://localhost:7456
+2021-12-10T06:28:13.689Z - success: protocol editor-framework registered
+2021-12-10T06:28:13.689Z - success: protocol app registered
+2021-12-10T06:28:13.689Z - success: protocol theme registered
+2021-12-10T06:28:13.689Z - success: protocol packages registered
+2021-12-10T06:28:13.689Z - success: protocol uuid registerred
+2021-12-10T06:28:13.689Z - success: protocol db registerred
+2021-12-10T06:28:13.689Z - success: protocol thumbnail registerred
+2021-12-10T06:28:13.689Z - success: protocol unpack registerred
+2021-12-10T06:28:13.689Z - success: protocol disable-commonjs registerred
+2021-12-10T06:28:15.331Z - normal: connected!
+2021-12-10T06:28:15.333Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day8
+2021-12-10T06:28:15.334Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day8
+2021-12-10T06:28:15.590Z - normal: Initializing Cocos2d
+2021-12-10T06:28:15.994Z - normal: Initializing engine extends
+2021-12-10T06:28:16.013Z - success: alipay-adapter loaded
+2021-12-10T06:28:16.018Z - success: asset-db-debugger loaded
+2021-12-10T06:28:16.021Z - success: baidu-adapter loaded
+2021-12-10T06:28:16.023Z - success: color-picker loaded
+2021-12-10T06:28:16.108Z - success: fb-audience-network loaded
+2021-12-10T06:28:16.143Z - success: fb-live-stream loaded
+2021-12-10T06:28:16.145Z - success: google-play-instant loaded
+2021-12-10T06:28:16.148Z - success: huawei-runtime loaded
+2021-12-10T06:28:16.274Z - success: cpk-publish loaded
+2021-12-10T06:28:16.275Z - success: jsb-adapter loaded
+2021-12-10T06:28:16.278Z - success: oppo-runtime loaded
+2021-12-10T06:28:16.281Z - success: package-manager loaded
+2021-12-10T06:28:16.344Z - success: qqplay-adapter loaded
+2021-12-10T06:28:16.346Z - success: runtime-dev-tools loaded
+2021-12-10T06:28:16.369Z - success: sdkbox loaded
+2021-12-10T06:28:16.372Z - success: tester loaded
+2021-12-10T06:28:16.374Z - success: ui-kit-preview-extra loaded
+2021-12-10T06:28:16.376Z - success: ui-kit-preview loaded
+2021-12-10T06:28:16.378Z - success: ui-kit loaded
+2021-12-10T06:28:16.381Z - success: vivo-runtime loaded
+2021-12-10T06:28:16.381Z - success: weapp-adapter loaded
+2021-12-10T06:28:16.382Z - success: xiaomi-adapter loaded
+2021-12-10T06:28:16.383Z - success: alipay-minigame loaded
+2021-12-10T06:28:16.411Z - success: assets loaded
+2021-12-10T06:28:16.413Z - success: builder loaded
+2021-12-10T06:28:16.565Z - success: cocos-services loaded
+2021-12-10T06:28:16.570Z - success: console loaded
+2021-12-10T06:28:16.591Z - success: fb-instant-games loaded
+2021-12-10T06:28:16.594Z - success: game-window loaded
+2021-12-10T06:28:16.595Z - success: google-instant-games loaded
+2021-12-10T06:28:16.598Z - success: hierarchy loaded
+2021-12-10T06:28:16.600Z - success: inspector loaded
+2021-12-10T06:28:16.602Z - success: keystore loaded
+2021-12-10T06:28:16.605Z - success: node-library loaded
+2021-12-10T06:28:16.605Z - success: package-asset loaded
+2021-12-10T06:28:16.606Z - success: preferences loaded
+2021-12-10T06:28:16.608Z - success: project-exporter loaded
+2021-12-10T06:28:16.611Z - success: project-importer loaded
+2021-12-10T06:28:16.614Z - success: project-settings loaded
+2021-12-10T06:28:16.617Z - success: scene loaded
+2021-12-10T06:28:16.618Z - success: simulator-debugger loaded
+2021-12-10T06:28:16.619Z - success: sprite-editor loaded
+2021-12-10T06:28:16.622Z - success: store loaded
+2021-12-10T06:28:16.626Z - success: timeline loaded
+2021-12-10T06:28:16.629Z - success: xiaomi-runtime loaded
+2021-12-10T06:28:19.838Z - normal: Loading packages
+2021-12-10T06:28:19.843Z - normal: Watching packages
+2021-12-10T06:28:19.926Z - normal: Run Application
+2021-12-10T06:28:24.343Z - info: Cocos Services load base data!
+2021-12-10T06:45:21.329Z - error: Failed to update asset db://assets/scenes, messages: Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day8/assets/scenes'
+    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
+    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5216)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
+    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
+    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+2021-12-10T06:45:21.330Z - error: Failed to save scene db://assets/scenes Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day8/assets/scenes'
+    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
+    at e.existsSync.Editor.assetdb.saveExists (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1524)
+    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5313)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
+    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
+    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
+2021-12-10T06:45:21.343Z - error: [object Object]
+    at t.scene.close (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/index.js:1:1244)
+    at s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/modes/scene.js:1:1670)
+    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+2021-12-10T06:45:21.343Z - failed: Task [close-scene] run error, stop running other tasks.
+ [object Object]
