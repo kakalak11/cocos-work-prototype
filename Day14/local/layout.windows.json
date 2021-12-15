@@ -6,9 +6,9 @@
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 0,
+      "y": 25,
       "width": 1680,
-      "height": 1050,
+      "height": 954,
       "layout": {
         "children": [
           {
@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 470,
+                "height": 411.015625,
                 "type": "panel",
                 "width": 268
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 518,
+                "height": 452.984375,
                 "type": "panel",
                 "width": 268
               }
             ],
-            "height": 990,
+            "height": 866,
             "type": "dock-v",
             "width": 268
           },
@@ -43,7 +43,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 722,
+                "height": 598,
                 "type": "panel",
                 "width": 1009
               },
@@ -59,7 +59,7 @@
                 "width": 1009
               }
             ],
-            "height": 990,
+            "height": 866,
             "type": "dock-v",
             "width": 1009
           },
@@ -70,7 +70,7 @@
               "cocos-services",
               "node-library"
             ],
-            "height": 990,
+            "height": 866,
             "type": "panel",
             "width": 399
           }
@@ -80,16 +80,15 @@
       "panels": [
         "hierarchy",
         "assets",
-        "node-library",
         "console",
         "timeline",
         "game-window",
         "inspector",
         "cocos-services",
+        "node-library",
         "scene"
       ]
-    },
-    "window-1639537402776": {}
+    }
   },
   "panels": {
     "project-settings": {
@@ -100,9 +99,9 @@
     },
     "builder": {
       "x": 0,
-      "y": 0,
+      "y": 25,
       "width": 1680,
-      "height": 1050
+      "height": 954
     }
   }
 }

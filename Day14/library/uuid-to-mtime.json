@@ -425,8 +425,8 @@
     "relativePath": "bullet.prefab"
   },
   "dc7df55b-5633-48e8-a619-3416235a3dfb": {
-    "asset": 1639535947000,
-    "meta": 1639537016459,
+    "asset": 1639537794832,
+    "meta": 1639537794846,
     "relativePath": "newScene.fire"
   },
   "587d3ff9-80f3-4a0e-b07d-6cb6853bc1ad": {
@@ -445,7 +445,7 @@
     "relativePath": "scripts/objectFalling.js"
   },
   "f69dfb52-da42-43ae-b7e9-d0973fdb17d5": {
-    "asset": 1639535947000,
+    "asset": 1639537043269,
     "meta": 1639537016430,
     "relativePath": "sprite"
   },
@@ -485,7 +485,7 @@
     "relativePath": "scripts/spaceboy.js"
   },
   "ceb41913-957e-4eef-ba29-7e5a734067f8": {
-    "asset": 1639537412929,
+    "asset": 1639537675694,
     "meta": 1639537416095,
     "relativePath": "build"
   }
