@@ -1,14 +1,15 @@
 {
   "version": "1.1.1",
   "windows": {
+    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 0,
+      "y": 25,
       "width": 1680,
-      "height": 1050,
+      "height": 954,
       "layout": {
         "children": [
           {
@@ -77,17 +78,7 @@
         ],
         "type": "dock-h"
       },
-      "panels": [
-        "hierarchy",
-        "assets",
-        "node-library",
-        "console",
-        "timeline",
-        "game-window",
-        "inspector",
-        "cocos-services",
-        "scene"
-      ]
+      "panels": []
     }
   },
   "panels": {}

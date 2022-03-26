@@ -1,426 +1,69 @@
-2021-12-16T02:17:22.512Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-16T02:17:22.547Z - normal: Initializing Asset Database
-2021-12-16T02:17:22.548Z - normal: checking language setting...
-2021-12-16T02:17:22.548Z - normal: Language: en
-2021-12-16T02:17:22.953Z - success: preview server running at http://localhost:7456
-2021-12-16T02:17:22.964Z - success: protocol editor-framework registered
-2021-12-16T02:17:22.964Z - success: protocol app registered
-2021-12-16T02:17:22.964Z - success: protocol theme registered
-2021-12-16T02:17:22.965Z - success: protocol packages registered
-2021-12-16T02:17:22.965Z - success: protocol uuid registerred
-2021-12-16T02:17:22.965Z - success: protocol db registerred
-2021-12-16T02:17:22.965Z - success: protocol thumbnail registerred
-2021-12-16T02:17:22.965Z - success: protocol unpack registerred
-2021-12-16T02:17:22.965Z - success: protocol disable-commonjs registerred
-2021-12-16T02:17:24.604Z - normal: connected!
-2021-12-16T02:17:24.606Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15
-2021-12-16T02:17:24.608Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15
-2021-12-16T02:17:24.834Z - normal: Initializing Cocos2d
-2021-12-16T02:17:25.224Z - normal: Initializing engine extends
-2021-12-16T02:17:25.240Z - success: alipay-adapter loaded
-2021-12-16T02:17:25.246Z - success: asset-db-debugger loaded
-2021-12-16T02:17:25.248Z - success: baidu-adapter loaded
-2021-12-16T02:17:25.251Z - success: color-picker loaded
-2021-12-16T02:17:25.328Z - success: fb-audience-network loaded
-2021-12-16T02:17:25.370Z - success: fb-live-stream loaded
-2021-12-16T02:17:25.372Z - success: google-play-instant loaded
-2021-12-16T02:17:25.375Z - success: huawei-runtime loaded
-2021-12-16T02:17:25.499Z - success: cpk-publish loaded
-2021-12-16T02:17:25.500Z - success: jsb-adapter loaded
-2021-12-16T02:17:25.503Z - success: oppo-runtime loaded
-2021-12-16T02:17:25.506Z - success: package-manager loaded
-2021-12-16T02:17:25.571Z - success: qqplay-adapter loaded
-2021-12-16T02:17:25.573Z - success: runtime-dev-tools loaded
-2021-12-16T02:17:25.600Z - success: sdkbox loaded
-2021-12-16T02:17:25.603Z - success: tester loaded
-2021-12-16T02:17:25.605Z - success: ui-kit-preview-extra loaded
-2021-12-16T02:17:25.607Z - success: ui-kit-preview loaded
-2021-12-16T02:17:25.609Z - success: ui-kit loaded
-2021-12-16T02:17:25.613Z - success: vivo-runtime loaded
-2021-12-16T02:17:25.614Z - success: weapp-adapter loaded
-2021-12-16T02:17:25.615Z - success: xiaomi-adapter loaded
-2021-12-16T02:17:25.616Z - success: alipay-minigame loaded
-2021-12-16T02:17:25.644Z - success: assets loaded
-2021-12-16T02:17:25.647Z - success: builder loaded
-2021-12-16T02:17:25.794Z - success: cocos-services loaded
-2021-12-16T02:17:25.799Z - success: console loaded
-2021-12-16T02:17:25.820Z - success: fb-instant-games loaded
-2021-12-16T02:17:25.823Z - success: game-window loaded
-2021-12-16T02:17:25.824Z - success: google-instant-games loaded
-2021-12-16T02:17:25.831Z - success: hierarchy loaded
-2021-12-16T02:17:25.834Z - success: inspector loaded
-2021-12-16T02:17:25.836Z - success: keystore loaded
-2021-12-16T02:17:25.839Z - success: node-library loaded
-2021-12-16T02:17:25.840Z - success: package-asset loaded
-2021-12-16T02:17:25.841Z - success: preferences loaded
-2021-12-16T02:17:25.843Z - success: project-exporter loaded
-2021-12-16T02:17:25.847Z - success: project-importer loaded
-2021-12-16T02:17:25.850Z - success: project-settings loaded
-2021-12-16T02:17:25.853Z - success: scene loaded
-2021-12-16T02:17:25.854Z - success: simulator-debugger loaded
-2021-12-16T02:17:25.855Z - success: sprite-editor loaded
-2021-12-16T02:17:25.859Z - success: store loaded
-2021-12-16T02:17:25.863Z - success: timeline loaded
-2021-12-16T02:17:25.866Z - success: xiaomi-runtime loaded
-2021-12-16T02:17:26.384Z - normal: Loading packages
-2021-12-16T02:17:26.388Z - normal: Watching packages
-2021-12-16T02:17:26.458Z - normal: Run Application
-2021-12-16T02:17:32.959Z - info: Cocos Services load base data!
-2021-12-16T02:33:12.276Z - info: Only the prefab node "parent node" and its child nodes are saved.
-2021-12-16T02:35:51.313Z - warn: The Asset used by node "parent node" is missing. Detailed information:
-Node path: "parent node"
-Missing uuid: "7da73d52-c940-4eeb-99bf-b916bb66aa94"
-
-2021-12-16T02:36:00.077Z - error: Failed to update asset db://assets/scenes, messages: Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5216)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
-2021-12-16T02:36:00.078Z - error: Failed to save scene db://assets/scenes Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at e.existsSync.Editor.assetdb.saveExists (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1524)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5313)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-2021-12-16T02:36:00.085Z - error: undefined
-    at t.save.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/index.js:1:2106)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
-    at emitThree (events.js:116:13)
-    at EventEmitter.emit (events.js:197:7)
-2021-12-16T02:36:00.085Z - failed: Task [save-editor-mode:[scene]] run error, stop running other tasks.
- [object Object]
-2021-12-16T02:36:28.959Z - info: Only the prefab node "node" and its child nodes are saved.
-2021-12-16T02:36:41.998Z - error: Failed to update asset db://assets/scenes, messages: Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5216)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
-2021-12-16T02:36:41.998Z - error: Failed to save scene db://assets/scenes Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at e.existsSync.Editor.assetdb.saveExists (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1524)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5313)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-2021-12-16T02:36:41.999Z - error: undefined
-    at t.save.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/index.js:1:2106)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
-    at emitThree (events.js:116:13)
-    at EventEmitter.emit (events.js:197:7)
-2021-12-16T02:36:41.999Z - failed: Task [save-editor-mode:[scene]] run error, stop running other tasks.
- [object Object]
-2021-12-16T02:39:25.241Z - error: TypeError: Cannot read property 'name' of null
-    at new nodeScript (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T02:39:25.246Z - error: TypeError: Cannot read property 'name' of null
-    at new nodeScript (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:44:29
-    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/downloader.js:182:33
-2021-12-16T02:40:12.808Z - normal: node instantiated !
-2021-12-16T02:40:12.814Z - normal: node instantiated !
-2021-12-16T02:40:27.827Z - normal: node instantiated !
-2021-12-16T02:40:27.830Z - normal: node instantiated !
-2021-12-16T02:40:46.995Z - normal: node instantiated !
-2021-12-16T02:40:46.998Z - normal: node instantiated !
-2021-12-16T02:41:38.793Z - normal: node instantiated !
-2021-12-16T02:41:38.804Z - normal: node instantiated !
-2021-12-16T02:43:34.570Z - info: Only the prefab node "node" and its child nodes are saved.
-2021-12-16T02:45:25.853Z - normal: node instantiated
-2021-12-16T02:45:25.857Z - normal: node instantiated
-2021-12-16T02:46:18.292Z - normal: node instantiated
-2021-12-16T02:46:18.296Z - normal: node instantiated
-2021-12-16T03:05:29.958Z - error: The thing you want to instantiate is nil
-    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
-    at Object.instantiate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/instantiate.js:36:28)
-    at main._createNode (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:30:32)
-    at main.ctor (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:26:14)
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:8:7)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-2021-12-16T03:05:29.959Z - error: TypeError: Cannot read property 'getComponent' of null
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:05:29.959Z - error: The thing you want to instantiate is nil
-    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
-    at Object.instantiate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/instantiate.js:36:28)
-    at main._createNode (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:30:32)
-    at main.ctor (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:26:14)
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:8:7)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-2021-12-16T03:05:29.959Z - error: TypeError: Cannot read property 'getComponent' of null
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:06:11.116Z - error: Failed to update asset db://assets/scenes, messages: Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5216)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
-2021-12-16T03:06:11.117Z - error: Failed to save scene db://assets/scenes Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at e.existsSync.Editor.assetdb.saveExists (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1524)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5313)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-2021-12-16T03:06:11.123Z - error: undefined
-    at t.save.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/index.js:1:2106)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
-    at emitThree (events.js:116:13)
-    at EventEmitter.emit (events.js:197:7)
-2021-12-16T03:06:11.123Z - failed: Task [save-editor-mode:[scene]] run error, stop running other tasks.
- [object Object]
-2021-12-16T03:06:19.040Z - error: Failed to update asset db://assets/scenes, messages: Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5216)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
-2021-12-16T03:06:19.040Z - error: Failed to save scene db://assets/scenes Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at e.existsSync.Editor.assetdb.saveExists (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1524)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5313)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-2021-12-16T03:06:19.046Z - error: undefined
-    at t.save.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/index.js:1:2106)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
-    at emitThree (events.js:116:13)
-    at EventEmitter.emit (events.js:197:7)
-2021-12-16T03:06:19.046Z - failed: Task [save-editor-mode:[scene]] run error, stop running other tasks.
- [object Object]
-2021-12-16T03:06:23.758Z - error: The thing you want to instantiate is nil
-    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
-    at Object.instantiate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/instantiate.js:36:28)
-    at main._createNode (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:30:32)
-    at main.ctor (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:26:14)
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:8:7)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-2021-12-16T03:06:23.759Z - error: TypeError: Cannot read property 'getComponent' of null
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:06:23.759Z - error: The thing you want to instantiate is nil
-    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
-    at Object.instantiate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/instantiate.js:36:28)
-    at main._createNode (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:30:32)
-    at main.ctor (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:26:14)
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:8:7)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-2021-12-16T03:06:23.759Z - error: TypeError: Cannot read property 'getComponent' of null
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:07:33.957Z - normal: null
-2021-12-16T03:07:33.958Z - error: The thing you want to instantiate is nil
-    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
-    at Object.instantiate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/instantiate.js:36:28)
-    at main._createNode (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:31:32)
-    at main.ctor (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:26:14)
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:8:7)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-2021-12-16T03:07:33.958Z - error: TypeError: Cannot read property 'getComponent' of null
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:07:33.958Z - normal: null
-2021-12-16T03:07:33.958Z - error: The thing you want to instantiate is nil
-    at Object.cc.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDebug.js:167:16)
-    at Object.instantiate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/instantiate.js:36:28)
-    at main._createNode (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:31:32)
-    at main.ctor (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/temp/quick-scripts/assets/scripts/main.js:26:14)
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:8:7)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-2021-12-16T03:07:33.959Z - error: TypeError: Cannot read property 'getComponent' of null
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:17:27.116Z - error: ReferenceError: empty is not defined
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:17:27.117Z - error: ReferenceError: empty is not defined
-    at new main (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:52:43.692Z - error: TypeError: Cannot read property 'name' of null
-    at new nodeScript (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:52:43.702Z - error: TypeError: Cannot read property 'name' of null
-    at new nodeScript (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:44:29
-    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/downloader.js:182:33
-2021-12-16T03:52:55.223Z - error: TypeError: Cannot read property 'name' of null
-    at new nodeScript (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:27:21)
-2021-12-16T03:52:55.230Z - error: TypeError: Cannot read property 'name' of null
-    at new nodeScript (eval at <anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCClass.js:475:20), <anonymous>:10:4)
-    at _Deserializer.prototype._deserializeObject (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:146:31)
-    at _Deserializer.prototype.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:107:65)
-    at Object.cc.deserialize (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/deserialize.js:535:36)
-    at Loader.loadUuid (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/uuid-loader.js:218:28)
-    at Loader.handle (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/loader.js:185:29)
-    at flow (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:33:35)
-    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/pipeline.js:44:29
-    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/downloader.js:182:33
-2021-12-16T04:30:27.431Z - info: Only the prefab node "node" and its child nodes are saved.
-2021-12-16T06:47:39.830Z - error: Failed to update asset db://assets/scenes, messages: Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5216)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
-2021-12-16T06:47:39.832Z - error: Failed to save scene db://assets/scenes Error: EISDIR: illegal operation on a directory, open '/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15/assets/scenes'
-    at u.o.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2273)
-    at e.existsSync.Editor.assetdb.saveExists (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:1524)
-    at Object._tasks.push [as callback] (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/interface.js:1:5313)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:906:35
-    at _arrayEach (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:85:13)
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:898:17
-    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
-    at u.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/index.js:1:1883)
-    at i.waterfall (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:19823)
-2021-12-16T06:47:39.840Z - error: [object Object]
-    at t.scene.close (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/index.js:1:1244)
-    at s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/edit-mode/modes/scene.js:1:1670)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
-    at emitThree (events.js:116:13)
-    at EventEmitter.emit (events.js:197:7)
-2021-12-16T06:47:39.840Z - failed: Task [close-scene] run error, stop running other tasks.
- [object Object]
+2021-12-21T02:05:49.527Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-21T02:05:49.575Z - normal: Initializing Asset Database
+2021-12-21T02:05:49.577Z - normal: checking language setting...
+2021-12-21T02:05:49.577Z - normal: Language: en
+2021-12-21T02:05:50.217Z - success: preview server running at http://localhost:7456
+2021-12-21T02:05:50.229Z - success: protocol editor-framework registered
+2021-12-21T02:05:50.229Z - success: protocol app registered
+2021-12-21T02:05:50.229Z - success: protocol theme registered
+2021-12-21T02:05:50.229Z - success: protocol packages registered
+2021-12-21T02:05:50.229Z - success: protocol uuid registerred
+2021-12-21T02:05:50.229Z - success: protocol db registerred
+2021-12-21T02:05:50.229Z - success: protocol thumbnail registerred
+2021-12-21T02:05:50.230Z - success: protocol unpack registerred
+2021-12-21T02:05:50.230Z - success: protocol disable-commonjs registerred
+2021-12-21T02:05:51.455Z - normal: connected!
+2021-12-21T02:05:51.457Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15
+2021-12-21T02:05:51.459Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day15
+2021-12-21T02:05:51.799Z - normal: Initializing Cocos2d
+2021-12-21T02:05:52.459Z - normal: Initializing engine extends
+2021-12-21T02:05:52.490Z - success: alipay-adapter loaded
+2021-12-21T02:05:52.495Z - success: asset-db-debugger loaded
+2021-12-21T02:05:52.496Z - success: baidu-adapter loaded
+2021-12-21T02:05:52.498Z - success: color-picker loaded
+2021-12-21T02:05:52.622Z - success: fb-audience-network loaded
+2021-12-21T02:05:52.674Z - success: fb-live-stream loaded
+2021-12-21T02:05:52.677Z - success: google-play-instant loaded
+2021-12-21T02:05:52.683Z - success: huawei-runtime loaded
+2021-12-21T02:05:52.909Z - success: cpk-publish loaded
+2021-12-21T02:05:52.910Z - success: jsb-adapter loaded
+2021-12-21T02:05:52.916Z - success: oppo-runtime loaded
+2021-12-21T02:05:52.922Z - success: package-manager loaded
+2021-12-21T02:05:53.059Z - success: qqplay-adapter loaded
+2021-12-21T02:05:53.061Z - success: runtime-dev-tools loaded
+2021-12-21T02:05:53.084Z - success: sdkbox loaded
+2021-12-21T02:05:53.090Z - success: tester loaded
+2021-12-21T02:05:53.094Z - success: ui-kit-preview-extra loaded
+2021-12-21T02:05:53.098Z - success: ui-kit-preview loaded
+2021-12-21T02:05:53.103Z - success: ui-kit loaded
+2021-12-21T02:05:53.115Z - success: vivo-runtime loaded
+2021-12-21T02:05:53.116Z - success: weapp-adapter loaded
+2021-12-21T02:05:53.118Z - success: xiaomi-adapter loaded
+2021-12-21T02:05:53.121Z - success: alipay-minigame loaded
+2021-12-21T02:05:53.158Z - success: assets loaded
+2021-12-21T02:05:53.160Z - success: builder loaded
+2021-12-21T02:05:53.422Z - success: cocos-services loaded
+2021-12-21T02:05:53.426Z - success: console loaded
+2021-12-21T02:05:53.453Z - success: fb-instant-games loaded
+2021-12-21T02:05:53.456Z - success: game-window loaded
+2021-12-21T02:05:53.457Z - success: google-instant-games loaded
+2021-12-21T02:05:53.461Z - success: hierarchy loaded
+2021-12-21T02:05:53.465Z - success: inspector loaded
+2021-12-21T02:05:53.466Z - success: keystore loaded
+2021-12-21T02:05:53.470Z - success: node-library loaded
+2021-12-21T02:05:53.472Z - success: package-asset loaded
+2021-12-21T02:05:53.473Z - success: preferences loaded
+2021-12-21T02:05:53.476Z - success: project-exporter loaded
+2021-12-21T02:05:53.480Z - success: project-importer loaded
+2021-12-21T02:05:53.482Z - success: project-settings loaded
+2021-12-21T02:05:53.489Z - success: scene loaded
+2021-12-21T02:05:53.492Z - success: simulator-debugger loaded
+2021-12-21T02:05:53.494Z - success: sprite-editor loaded
+2021-12-21T02:05:53.497Z - success: store loaded
+2021-12-21T02:05:53.503Z - success: timeline loaded
+2021-12-21T02:05:53.506Z - success: xiaomi-runtime loaded
+2021-12-21T02:05:56.213Z - info: Cocos Services load base data!
+2021-12-21T02:05:57.174Z - normal: Loading packages
+2021-12-21T02:05:57.178Z - normal: Watching packages
+2021-12-21T02:05:57.247Z - normal: Run Application
+2021-12-21T02:05:59.883Z - info: shutdown preview server

@@ -1,72 +1,72 @@
-2021-12-16T02:15:52.584Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-16T02:15:52.618Z - normal: Initializing Asset Database
-2021-12-16T02:15:52.619Z - normal: checking language setting...
-2021-12-16T02:15:52.619Z - normal: Language: en
-2021-12-16T02:15:53.043Z - success: preview server running at http://localhost:7456
-2021-12-16T02:15:53.052Z - success: protocol editor-framework registered
-2021-12-16T02:15:53.052Z - success: protocol app registered
-2021-12-16T02:15:53.052Z - success: protocol theme registered
-2021-12-16T02:15:53.052Z - success: protocol packages registered
-2021-12-16T02:15:53.052Z - success: protocol uuid registerred
-2021-12-16T02:15:53.052Z - success: protocol db registerred
-2021-12-16T02:15:53.052Z - success: protocol thumbnail registerred
-2021-12-16T02:15:53.052Z - success: protocol unpack registerred
-2021-12-16T02:15:53.052Z - success: protocol disable-commonjs registerred
-2021-12-16T02:15:53.483Z - normal: connected!
-2021-12-16T02:15:53.485Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14
-2021-12-16T02:15:53.486Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14
-2021-12-16T02:15:53.712Z - normal: Initializing Cocos2d
-2021-12-16T02:15:54.068Z - normal: Initializing engine extends
-2021-12-16T02:15:54.084Z - success: alipay-adapter loaded
-2021-12-16T02:15:54.092Z - success: asset-db-debugger loaded
-2021-12-16T02:15:54.098Z - success: baidu-adapter loaded
-2021-12-16T02:15:54.104Z - success: color-picker loaded
-2021-12-16T02:15:54.190Z - success: fb-audience-network loaded
-2021-12-16T02:15:54.228Z - success: fb-live-stream loaded
-2021-12-16T02:15:54.230Z - success: google-play-instant loaded
-2021-12-16T02:15:54.233Z - success: huawei-runtime loaded
-2021-12-16T02:15:54.355Z - success: cpk-publish loaded
-2021-12-16T02:15:54.356Z - success: jsb-adapter loaded
-2021-12-16T02:15:54.359Z - success: oppo-runtime loaded
-2021-12-16T02:15:54.362Z - success: package-manager loaded
-2021-12-16T02:15:54.424Z - success: qqplay-adapter loaded
-2021-12-16T02:15:54.426Z - success: runtime-dev-tools loaded
-2021-12-16T02:15:54.446Z - success: sdkbox loaded
-2021-12-16T02:15:54.449Z - success: tester loaded
-2021-12-16T02:15:54.451Z - success: ui-kit-preview-extra loaded
-2021-12-16T02:15:54.453Z - success: ui-kit-preview loaded
-2021-12-16T02:15:54.456Z - success: ui-kit loaded
-2021-12-16T02:15:54.459Z - success: vivo-runtime loaded
-2021-12-16T02:15:54.460Z - success: weapp-adapter loaded
-2021-12-16T02:15:54.461Z - success: xiaomi-adapter loaded
-2021-12-16T02:15:54.463Z - success: alipay-minigame loaded
-2021-12-16T02:15:54.491Z - success: assets loaded
-2021-12-16T02:15:54.493Z - success: builder loaded
-2021-12-16T02:15:54.637Z - success: cocos-services loaded
-2021-12-16T02:15:54.641Z - success: console loaded
-2021-12-16T02:15:54.662Z - success: fb-instant-games loaded
-2021-12-16T02:15:54.665Z - success: game-window loaded
-2021-12-16T02:15:54.666Z - success: google-instant-games loaded
-2021-12-16T02:15:54.669Z - success: hierarchy loaded
-2021-12-16T02:15:54.672Z - success: inspector loaded
-2021-12-16T02:15:54.674Z - success: keystore loaded
-2021-12-16T02:15:54.677Z - success: node-library loaded
-2021-12-16T02:15:54.678Z - success: package-asset loaded
-2021-12-16T02:15:54.679Z - success: preferences loaded
-2021-12-16T02:15:54.682Z - success: project-exporter loaded
-2021-12-16T02:15:54.686Z - success: project-importer loaded
-2021-12-16T02:15:54.689Z - success: project-settings loaded
-2021-12-16T02:15:54.692Z - success: scene loaded
-2021-12-16T02:15:54.693Z - success: simulator-debugger loaded
-2021-12-16T02:15:54.694Z - success: sprite-editor loaded
-2021-12-16T02:15:54.697Z - success: store loaded
-2021-12-16T02:15:54.701Z - success: timeline loaded
-2021-12-16T02:15:54.703Z - success: xiaomi-runtime loaded
-2021-12-16T02:16:02.397Z - normal: Loading packages
-2021-12-16T02:16:02.401Z - normal: Watching packages
-2021-12-16T02:16:02.481Z - normal: Run Application
-2021-12-16T02:16:05.808Z - info: Cocos Services load base data!
-2021-12-16T02:16:05.998Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js] failed : TypeError: Cannot redefine property: eventManager
+2021-12-21T02:06:05.951Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-21T02:06:05.988Z - normal: Initializing Asset Database
+2021-12-21T02:06:05.991Z - normal: checking language setting...
+2021-12-21T02:06:05.991Z - normal: Language: en
+2021-12-21T02:06:06.414Z - success: preview server running at http://localhost:7456
+2021-12-21T02:06:06.426Z - success: protocol editor-framework registered
+2021-12-21T02:06:06.426Z - success: protocol app registered
+2021-12-21T02:06:06.426Z - success: protocol theme registered
+2021-12-21T02:06:06.426Z - success: protocol packages registered
+2021-12-21T02:06:06.427Z - success: protocol uuid registerred
+2021-12-21T02:06:06.427Z - success: protocol db registerred
+2021-12-21T02:06:06.427Z - success: protocol thumbnail registerred
+2021-12-21T02:06:06.427Z - success: protocol unpack registerred
+2021-12-21T02:06:06.427Z - success: protocol disable-commonjs registerred
+2021-12-21T02:06:07.631Z - normal: connected!
+2021-12-21T02:06:07.633Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14
+2021-12-21T02:06:07.634Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14
+2021-12-21T02:06:07.870Z - normal: Initializing Cocos2d
+2021-12-21T02:06:08.250Z - normal: Initializing engine extends
+2021-12-21T02:06:08.283Z - success: alipay-adapter loaded
+2021-12-21T02:06:08.299Z - success: asset-db-debugger loaded
+2021-12-21T02:06:08.302Z - success: baidu-adapter loaded
+2021-12-21T02:06:08.305Z - success: color-picker loaded
+2021-12-21T02:06:08.400Z - success: fb-audience-network loaded
+2021-12-21T02:06:08.431Z - success: fb-live-stream loaded
+2021-12-21T02:06:08.433Z - success: google-play-instant loaded
+2021-12-21T02:06:08.436Z - success: huawei-runtime loaded
+2021-12-21T02:06:08.572Z - success: cpk-publish loaded
+2021-12-21T02:06:08.572Z - success: jsb-adapter loaded
+2021-12-21T02:06:08.575Z - success: oppo-runtime loaded
+2021-12-21T02:06:08.586Z - success: package-manager loaded
+2021-12-21T02:06:08.654Z - success: qqplay-adapter loaded
+2021-12-21T02:06:08.655Z - success: runtime-dev-tools loaded
+2021-12-21T02:06:08.684Z - success: sdkbox loaded
+2021-12-21T02:06:08.697Z - success: tester loaded
+2021-12-21T02:06:08.708Z - success: ui-kit-preview-extra loaded
+2021-12-21T02:06:08.717Z - success: ui-kit-preview loaded
+2021-12-21T02:06:08.730Z - success: ui-kit loaded
+2021-12-21T02:06:08.733Z - success: vivo-runtime loaded
+2021-12-21T02:06:08.734Z - success: weapp-adapter loaded
+2021-12-21T02:06:08.734Z - success: xiaomi-adapter loaded
+2021-12-21T02:06:08.735Z - success: alipay-minigame loaded
+2021-12-21T02:06:08.774Z - success: assets loaded
+2021-12-21T02:06:08.784Z - success: builder loaded
+2021-12-21T02:06:08.949Z - success: cocos-services loaded
+2021-12-21T02:06:08.962Z - success: console loaded
+2021-12-21T02:06:08.985Z - success: fb-instant-games loaded
+2021-12-21T02:06:08.997Z - success: game-window loaded
+2021-12-21T02:06:08.997Z - success: google-instant-games loaded
+2021-12-21T02:06:09.010Z - success: hierarchy loaded
+2021-12-21T02:06:09.021Z - success: inspector loaded
+2021-12-21T02:06:09.022Z - success: keystore loaded
+2021-12-21T02:06:09.033Z - success: node-library loaded
+2021-12-21T02:06:09.034Z - success: package-asset loaded
+2021-12-21T02:06:09.035Z - success: preferences loaded
+2021-12-21T02:06:09.046Z - success: project-exporter loaded
+2021-12-21T02:06:09.060Z - success: project-importer loaded
+2021-12-21T02:06:09.069Z - success: project-settings loaded
+2021-12-21T02:06:09.082Z - success: scene loaded
+2021-12-21T02:06:09.082Z - success: simulator-debugger loaded
+2021-12-21T02:06:09.083Z - success: sprite-editor loaded
+2021-12-21T02:06:09.096Z - success: store loaded
+2021-12-21T02:06:09.109Z - success: timeline loaded
+2021-12-21T02:06:09.111Z - success: xiaomi-runtime loaded
+2021-12-21T02:06:17.442Z - normal: Loading packages
+2021-12-21T02:06:17.447Z - normal: Watching packages
+2021-12-21T02:06:17.521Z - normal: Run Application
+2021-12-21T02:06:20.977Z - info: Cocos Services load base data!
+2021-12-21T02:06:21.342Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js] failed : TypeError: Cannot redefine property: eventManager
     at Function.defineProperty (<anonymous>)
     at Object.a.get (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js:12229:63)
     at Array.129.../platform/js (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js:8443:13)
@@ -77,7 +77,7 @@
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js:13:16
     at Array.205.../event-manager (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js:11177:13)
     at n (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/cocos2d-js-min.js:12:77)
-2021-12-16T02:16:05.999Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/main.js] failed : TypeError: cc.registerModuleFunc is not a function
+2021-12-21T02:06:21.343Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/main.js] failed : TypeError: cc.registerModuleFunc is not a function
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/main.js:227:16
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/main.js:231:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/main.js:234:3)
@@ -88,7 +88,7 @@
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-2021-12-16T02:16:06.000Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/project.js] failed : TypeError: cc.registerModuleFunc is not a function
+2021-12-21T02:06:21.344Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/project.js] failed : TypeError: cc.registerModuleFunc is not a function
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/project.js:84:16
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/project.js:88:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/project.js:91:3)
@@ -99,7 +99,7 @@
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-2021-12-16T02:16:06.001Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/settings.js] failed : TypeError: cc.registerModuleFunc is not a function
+2021-12-21T02:06:21.344Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/settings.js] failed : TypeError: cc.registerModuleFunc is not a function
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/settings.js:15:16
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/settings.js:19:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/build/web-desktop/src/settings.js:22:3)
@@ -110,7 +110,7 @@
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-2021-12-16T02:16:06.001Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/bullet.js] failed : TypeError: cc.registerModuleFunc is not a function
+2021-12-21T02:06:21.345Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/bullet.js] failed : TypeError: cc.registerModuleFunc is not a function
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/bullet.js:56:16
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/bullet.js:60:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/bullet.js:63:3)
@@ -121,7 +121,7 @@
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-2021-12-16T02:16:06.002Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/objectFalling.js] failed : TypeError: cc.registerModuleFunc is not a function
+2021-12-21T02:06:21.346Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/objectFalling.js] failed : TypeError: cc.registerModuleFunc is not a function
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/objectFalling.js:61:16
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/objectFalling.js:65:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/objectFalling.js:68:3)
@@ -132,7 +132,7 @@
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-2021-12-16T02:16:06.002Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/spaceboy.js] failed : TypeError: cc.registerModuleFunc is not a function
+2021-12-21T02:06:21.346Z - failed: load script [/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/spaceboy.js] failed : TypeError: cc.registerModuleFunc is not a function
     at /Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/spaceboy.js:138:16
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/spaceboy.js:142:11)
     at Object.<anonymous> (/Users/fe-anhtu-fresher/Desktop/cocos/cocos-work-prototype/Day14/temp/quick-scripts/assets/scripts/spaceboy.js:145:3)
@@ -143,69 +143,69 @@
     at Function.Module._load (module.js:439:3)
     at Module.require (module.js:498:17)
     at require (internal/module.js:20:19)
-2021-12-16T02:16:06.003Z - warn: Modified global variable while loading common project scripts: CC_BUILD
+2021-12-21T02:06:21.347Z - warn: Modified global variable while loading common project scripts: CC_BUILD
 Before: false
 After: true
-2021-12-16T02:16:06.003Z - warn: Modified global variable while loading common project scripts: CC_EDITOR
+2021-12-21T02:06:21.347Z - warn: Modified global variable while loading common project scripts: CC_EDITOR
 Before: true
 After: false
-2021-12-16T02:16:06.003Z - warn: Modified global variable while loading common project scripts: CC_DEV
+2021-12-21T02:06:21.347Z - warn: Modified global variable while loading common project scripts: CC_DEV
 Before: true
 After: false
-2021-12-16T02:16:06.004Z - warn: Modified global variable while loading common project scripts: CC_DEBUG
+2021-12-21T02:06:21.348Z - warn: Modified global variable while loading common project scripts: CC_DEBUG
 Before: true
 After: false
-2021-12-16T02:16:06.074Z - warn: Script attached to "object" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.421Z - warn: Script attached to "object" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/object"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "da442d0d-4b26-4f0c-afb7-2adfe19626d0"
 Class ID: "da4420NSyZPDK+3Kt/hlibQ"
 
-2021-12-16T02:16:06.075Z - warn: Script attached to "object" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.421Z - warn: Script attached to "object" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/object"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "da442d0d-4b26-4f0c-afb7-2adfe19626d0"
 Class ID: "da4420NSyZPDK+3Kt/hlibQ"
 
-2021-12-16T02:16:06.075Z - warn: Script attached to "object" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.422Z - warn: Script attached to "object" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/object"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "da442d0d-4b26-4f0c-afb7-2adfe19626d0"
 Class ID: "da4420NSyZPDK+3Kt/hlibQ"
 
-2021-12-16T02:16:06.076Z - warn: Script attached to "spaceboy" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.422Z - warn: Script attached to "spaceboy" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/spaceboy"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "88b9fac5-3244-45e1-923d-2cda9b7cec0a"
 Class ID: "88b9frFMkRF4ZI9LNqbfOwK"
 
-2021-12-16T02:16:06.076Z - warn: Script attached to "spaceboy" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.423Z - warn: Script attached to "spaceboy" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/spaceboy"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "da442d0d-4b26-4f0c-afb7-2adfe19626d0"
 Class ID: "da4420NSyZPDK+3Kt/hlibQ"
 
-2021-12-16T02:16:06.077Z - warn: Script attached to "enemy" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.423Z - warn: Script attached to "enemy" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/enemy"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "da442d0d-4b26-4f0c-afb7-2adfe19626d0"
 Class ID: "da4420NSyZPDK+3Kt/hlibQ"
 
-2021-12-16T02:16:06.078Z - warn: Script attached to "enemy" in scene "newScene.fire" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.425Z - warn: Script attached to "enemy" in scene "newScene.fire" is missing or invalid. Detailed information:
 Node path: "Canvas/enemy"
 Asset url: "db://assets/newScene.fire"
 Script UUID: "da442d0d-4b26-4f0c-afb7-2adfe19626d0"
 Class ID: "da4420NSyZPDK+3Kt/hlibQ"
 
-2021-12-16T02:16:06.099Z - warn: Script attached to "sprite_splash" in prefab "bullet.prefab" is missing or invalid. Detailed information:
+2021-12-21T02:06:21.451Z - warn: Script attached to "sprite_splash" in prefab "bullet.prefab" is missing or invalid. Detailed information:
 Node path: "sprite_splash"
 Asset url: "db://assets/bullet.prefab"
 Script UUID: "90440a24-4f55-428e-b49c-4bbd1381166f"
 Class ID: "90440okT1VCjrScS70TgRZv"
 
-2021-12-16T02:16:06.139Z - warn: The Asset used by node "sprite_splash" in prefab "bullet.prefab" is missing. Detailed information:
+2021-12-21T02:06:21.485Z - warn: The Asset used by node "sprite_splash" in prefab "bullet.prefab" is missing. Detailed information:
 Node path: "sprite_splash"
 Asset url: "db://assets/bullet.prefab"
 Missing uuid: "1264d0fa-e8e1-47ad-b118-f568a0b957ce"
 
-2021-12-16T02:16:11.825Z - info: shutdown preview server
+2021-12-21T02:06:25.689Z - info: shutdown preview server
